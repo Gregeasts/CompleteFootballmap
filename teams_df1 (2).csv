@@ -1,0 +1,1398 @@
+,County FA,Region,Club Name,Club PFF ID,Accreditation Status,Star Level,Affiliated Teams,Affiliated Teams Banding,Club Type,Club Sub Type,Parent or Child Club?,Parent Club PFF ID,WGS Club ID,Club Main Ground,Address,Town,Authority,Postcode,PitchFinder ID,Longitude,Latitude,PAR23CD,Subteams
+0,Cornwall FA,West,Week St Mary,93512,Accredited,1,1,1-4,Club,GRF,Parent,,3c9bd6e7-1480-e311-8b4d-001e4f28882a,SANDERS FIELD,,Holsworthy,Cornwall,EX22 6XN,1041442,-4.50552,50.75021,E04011606,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Week St MaryZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+1,Cornwall FA,West,Week St Mary Youth,81723,Accredited,1,4,1-4,Club,GRF,Child,93512.0,cd2a37bb-1d80-e311-8b4d-001e4f28882a,SANDERS FIELD,,Holsworthy,Cornwall,EX22 6XN,1041442,-4.504519999999999,50.75021,E04011606,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Week St Mary YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Week St Mary YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Week St Mary YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Week St Mary YouthZColtsZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+2,Cornwall FA,West,Bude Town,74828,In Progress,2,3,1-4,Club,NLS 5-6,Parent,,91176ecf-1480-e311-8b4d-001e4f28882a,BROAD CLOSE,,Bude,Cornwall,EX23 8DR,1041320,-4.5361755,50.8292447,E04011409,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Bude TownZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Bude TownZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Bude TownZVetsZNLS 5-6ZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+3,Cornwall FA,West,Bude Town Youth,74830,In Progress,2,14,11-20,Club,GRF,Child,74828.0,119bd6e7-1480-e311-8b4d-001e4f28882a,BROAD CLOSE,,Bude,Cornwall,EX23 8DR,1041320,-4.535175499999999,50.8292447,E04011409,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Bude Town YouthZZGRFZU10ZYouthZMixedZNonDisabilityZFriendlyZ7v7ZFootballZCornwall Youth Football League
+Bude Town YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Bude Town YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Bude Town YouthZBladesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bude Town YouthZBlazersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bude Town YouthZBluesZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bude Town YouthZBraveheartsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bude Town YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bude Town YouthZGirlsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bude Town YouthZGirlsZGRFZU11ZYouthZFemaleZNonDisabilityZFriendlyZ9v9ZFootballZCornwall Youth Football League
+Bude Town YouthZGirlsZGRFZU9ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Bude Town YouthZPurplesZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bude Town YouthZSky BluesZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bude Town YouthZSwiftsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall U18 Girls Football League
+Bude Town YouthZSwiftsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+4,Cornwall FA,West,Kilkhampton,79768,In Progress,1,2,1-4,Club,GRF,Parent,,cf8c71db-1480-e311-8b4d-001e4f28882a,LAMB PARK,"A39 KILKHAMPTON",Bude,Cornwall,EX23 9QU,6015276,-4.4875204,50.8719451,E04011452,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+KilkhamptonZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+KilkhamptonZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+5,Cornwall FA,West,Kilkhampton Women,109008,Non Accredited,0,1,1-4,Club,GRF,Parent,,58429e70-e727-ef11-b6e3-005056bc5e93,LAMB PARK,"A39 KILKHAMPTON",Bude,Cornwall,EX23 9QU,6015276,-4.4865204,50.8719451,E04011452,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Kilkhampton WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+6,Cornwall FA,West,Morwenstow,74231,In Progress,1,3,1-4,Club,GRF,Parent,,ec8c71db-1480-e311-8b4d-001e4f28882a,THE PLAYING FIELD,,Bude,Cornwall,EX23 9SL,6020921,-4.52505,50.9043599,E04011492,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+MorwenstowZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZNorth Devon Football League
+MorwenstowZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZNorth Devon Football League
+MorwenstowZWalkingZGRFZOpenZAdultZMixedZNonDisabilityZNon-NLSZ5v5ZWalking FootballZAge UK Cornwall Walking Football League
+"
+7,Cornwall FA,West,Morwenstow Youth,74232,In Progress,1,8,5-10,Club,GRF,Child,74231.0,e49ad6e7-1480-e311-8b4d-001e4f28882a,THE PLAYING FIELD,,Bude,Cornwall,EX23 9SL,6020921,-4.52405,50.9043599,E04011492,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Morwenstow YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZNorth Devon Youth League
+Morwenstow YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZNorth Devon Youth League
+Morwenstow YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZNorth Devon Youth League
+Morwenstow YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZNorth Devon Youth League
+Morwenstow YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZNorth Devon Youth League
+Morwenstow YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Morwenstow YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Morwenstow YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZNorth Devon Youth League
+"
+8,Cornwall FA,West,Millbrook,74069,Accredited,1,2,1-4,Club,NLS 5-6,Parent,,b59474d5-1480-e311-8b4d-001e4f28882a,JENKINS PARK,MILLBROOK FOOTBALL CLUB MILL ROAD,MILLBROOK,Cornwall,PL10 1EN,6020511,-4.20535,50.34955,E04011489,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+MillbrookZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 5Z11v11ZFootballZSouth West Peninsula Football League Ltd
+MillbrookZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 5Z11v11ZFootballZWestern Football League
+MillbrookZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+9,Cornwall FA,West,Torpoint AFC Juniors,79942,In Progress,1,5,5-10,Club,GRF,Parent,,d3c7c467-1c80-e311-8b4d-001e4f28882a,CARBEILE JUNIOR SCHOOL,TREVOL ROAD,Torpoint,Cornwall,PL11 2NH,30007618,-4.2070405,50.3775551,E04011591,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Torpoint AFC JuniorsZCarbeileZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint AFC JuniorsZHawkesZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZ
+Torpoint AFC JuniorsZPolhawnZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint AFC JuniorsZSharrowZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint AFC JuniorsZUnder 7ZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZ
+"
+10,Cornwall FA,West,HMS Raleigh,106166,Non Accredited,0,1,1-4,Club,GRF,Parent,,0db18e68-762c-ee11-81cc-005056bc5e93,HMS RALEIGH GYMNASIUM (HM FORCES),,Torpoint,Cornwall,PL11 2PD,1103632,-4.22494,50.37363,E04011591,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+HMS RaleighZHMS RaleighZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDevon Wednesday League
+"
+11,Cornwall FA,West,Torpoint Athletic Youth FC,79940,In Progress,1,10,5-10,Club,GRF,Parent,,38e670e1-1480-e311-8b4d-001e4f28882a,HMS RALEIGH GYMNASIUM (HM FORCES),,Torpoint,Cornwall,PL11 2PD,1103632,-4.22394,50.37363,E04011591,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Torpoint Athletic Youth FCZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZMakerZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZPenleeZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZPenntorrZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZTamarZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZTregantleZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Torpoint Athletic Youth FCZTregonhawkeZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+"
+12,Cornwall FA,West,Torpoint Athletic,79941,In Progress,1,3,1-4,Club,NLS 5-6,Parent,,039574d5-1480-e311-8b4d-001e4f28882a,THE MILL,TORPOINT AFC MILL LANE,Torpoint,Cornwall,PL11 2RE,6020471,-4.20718,50.37282,E04011591,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Torpoint AthleticZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 5Z11v11ZFootballZWestern Football League
+Torpoint AthleticZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Torpoint AthleticZ3rdZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+13,Cornwall FA,West,Saltash Youth,77310,Accredited,1,4,1-4,Club,GRF,Child,78762.0,d39ad6e7-1480-e311-8b4d-001e4f28882a,CHAPEL FIELD,Prospect Lane,SALTASH,Cornwall,PL12 4JN,6007822,-4.23562,50.4114099,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash YouthZZGRFZU12ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Saltash YouthZSaltash youthZGRFZU10ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Saltash YouthZTigersZGRFZU14ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+"
+14,Cornwall FA,West,Saltash United,77308,In Progress,2,5,5-10,Club,NLS 5-6,Parent,,e29474d5-1480-e311-8b4d-001e4f28882a,WATERWAYS STADIUM,KIMBERLEY STADIUM CALLINGTON ROAD,SALTASH,Cornwall,PL12 6DX,6007766,-4.219262133333333,50.4098482,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash UnitedZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 5Z11v11ZFootballZWestern Football League
+Saltash UnitedZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Saltash UnitedZ3rdZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Saltash UnitedZChampionshipZNLS 5-6ZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Saltash UnitedZPremierZNLS 5-6ZOpenZAdultZMaleZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+"
+15,Cornwall FA,West,Saltash United Juniors,77309,In Progress,2,25,21-30,Club,GRF,Child,77308.0,90e670e1-1480-e311-8b4d-001e4f28882a,WARFELTON SPORTS FIELD,CALLINGTON ROAD,SALTASH,Cornwall,PL12 6DX,6007860,-4.218262133333333,50.4098482,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash United JuniorsZ AshesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZ BulldogsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZ PanthersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZ TamarZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZCobrasZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZDragonsZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZDynamosZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZEaglesZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZFlamesZGRFZU14ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZHurricanesZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZJaguarsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZLionessesZGRFZU12ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZPythonsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZRaidersZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZRebelsZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+Saltash United JuniorsZRedsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZSaintsZGRFZU9ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZSharksZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZ
+Saltash United JuniorsZStrikersZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZTigersZGRFZU18ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Saltash United JuniorsZTitansZGRFZU10ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZTrematonZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZWarriorsZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZWildcatsZGRFZU16ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Saltash United JuniorsZWolvesZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+"
+16,Cornwall FA,West,Saltash United Women,90443,In Progress,2,1,1-4,Club,GRF,Child,77308.0,a36616c2-89dc-ea11-b3cf-005056bc2dbb,WATERWAYS STADIUM,KIMBERLEY STADIUM CALLINGTON ROAD,SALTASH,Cornwall,PL12 6DX,6007766,-4.2172621333333336,50.4098482,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash United WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZTier 6 Womens Regional Leagues OtherZ11v11ZFootballZSouth West Women's Football League
+"
+17,Cornwall FA,West,Saltash Borough,78762,Accredited,1,1,1-4,Club,GRF,Parent,,d38c71db-1480-e311-8b4d-001e4f28882a,SALTMILL PARK,"SALTMILL ALL WEATHER PITCH CHANGING ROOMS AND PREMISES SALT MILL",SALTASH,Cornwall,PL12 6LG,1042281,-4.21594,50.41517,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash BoroughZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+18,Cornwall FA,West,Saltash Borough Veterans,89725,Accredited,1,1,1-4,Club,GRF,Child,78762.0,71ba5c19-56b5-ea11-b3cf-005056bc2dbb,SALTMILL PARK,"SALTMILL ALL WEATHER PITCH CHANGING ROOMS AND PREMISES SALT MILL",SALTASH,Cornwall,PL12 6LG,1042281,-4.2149399999999995,50.41517,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash Borough VeteransZ1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+19,Cornwall FA,West,Saltash Borough Women,87151,Accredited,1,1,1-4,Club,GRF,Child,78762.0,31591ec0-7974-e811-8915-005056bc2dbb,SALTMILL PARK,"SALTMILL ALL WEATHER PITCH CHANGING ROOMS AND PREMISES SALT MILL",SALTASH,Cornwall,PL12 6LG,1042281,-4.21394,50.41517,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saltash Borough WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+20,Cornwall FA,West,Southwest Inclusive,108380,Non Accredited,0,1,1-4,Club,GRF,Parent,,c27047d9-9bdf-ee11-8e57-005056bc6f4c,SALTMILL PARK,"SALTMILL ALL WEATHER PITCH CHANGING ROOMS AND PREMISES SALT MILL",SALTASH,Cornwall,PL12 6LG,1042281,-4.21294,50.41517,E04011519,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Southwest InclusiveZ1stZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+"
+21,Cornwall FA,West,St Dominick,78515,In Progress,1,2,1-4,Club,GRF,Parent,,37e670e1-1480-e311-8b4d-001e4f28882a,ST DOMINICK RECREATION GROUND,,SALTASH,Cornwall,PL12 6SU,6000537,-4.2512826,50.4866998,E04011541,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St DominickZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St DominickZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+22,Cornwall FA,West,Looe Town FC,73289,In Progress,1,4,1-4,Club,GRF,Parent,,df8c71db-1480-e311-8b4d-001e4f28882a,BARBICAN SPORTS FIELD,Barbican Road,Looe,Cornwall,PL13 1NW,6007838,-4.4488,50.36203,E04013066,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Looe Town FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Looe Town FCZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Looe Town FCZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+Looe Town FCZLooe Town VeteransZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+23,Cornwall FA,West,Looe Town Youth,73290,In Progress,1,6,5-10,Club,GRF,Child,73289.0,8ce670e1-1480-e311-8b4d-001e4f28882a,BARBICAN SPORTS FIELD,Barbican Road,Looe,Cornwall,PL13 1NW,6007838,-4.4478,50.36203,E04013066,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Looe Town YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Looe Town YouthZZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Looe Town YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Looe Town YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Looe Town YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Looe Town YouthZLooe Town U9'sZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+24,Cornwall FA,West,Polperro,76097,Accredited,1,1,1-4,Club,GRF,Parent,,fd8c71db-1480-e311-8b4d-001e4f28882a,KILLIGARTH,,Looe,Cornwall,PL13 2JQ,6000390,-4.51103,50.33907,E04013075,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+PolperroZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+25,Cornwall FA,West,Polperro Youth,86306,Accredited,1,2,1-4,Club,GRF,Child,76097.0,f36e4117-e25c-e711-9592-005056bc75a7,KILLIGARTH,,Looe,Cornwall,PL13 2JQ,6000390,-4.5100299999999995,50.33907,E04013075,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Polperro YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Polperro YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+"
+26,Cornwall FA,West,Lanreath,72742,In Progress,1,2,1-4,Club,GRF,Parent,,d98c71db-1480-e311-8b4d-001e4f28882a,RALLY PARK,,Looe,Cornwall,PL13 2NX,6000840,-4.56121,50.38472,E04011462,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+LanreathZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+LanreathZVeterans 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+27,Cornwall FA,West,Liskeard Athletic,73071,In Progress,2,3,1-4,Club,NLS 5-6,Parent,,ac9474d5-1480-e311-8b4d-001e4f28882a,LUX PARK,COLDSTYLE ROAD,Liskeard,Cornwall,PL14 3HZ,6015246,-4.4629552,50.4605849,E04013065,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Liskeard AthleticZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Liskeard AthleticZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Liskeard AthleticZ3rdZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+28,Cornwall FA,West,Dobwalls,76540,Accredited,1,4,1-4,Club,NLS 5-6,Parent,,329574d5-1480-e311-8b4d-001e4f28882a,LANTOOM PARK,DOBWALLS FOOTBALL CLUB DULOE ROAD,DOBWALLS,Cornwall,PL14 4LU,6020955,-4.512705,50.4560982,E04013056,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+DobwallsZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+DobwallsZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+DobwallsZFlexiZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+DobwallsZWalkingZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ5v5ZWalking FootballZAge UK Cornwall Walking Football League
+"
+29,Cornwall FA,West,Dobwalls Juniors,82309,In Progress,1,11,11-20,Club,GRF,Parent,,67d7f1da-1e80-e311-8b4d-001e4f28882a,LANTOOM PARK,DOBWALLS FOOTBALL CLUB DULOE ROAD,DOBWALLS,Cornwall,PL14 4LU,6020955,-4.511705,50.4560982,E04013056,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Dobwalls JuniorsZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Dobwalls JuniorsZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZDingosZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Dobwalls JuniorsZDobwallsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+30,Cornwall FA,West,Pensilva,75782,In Progress,1,2,1-4,Club,GRF,Parent,,f78c71db-1480-e311-8b4d-001e4f28882a,PENSILVA RECREATION FIELD,"School Road Pensilva",Liskeard,Cornwall,PL14 5PG,6015285,-4.4111652,50.5050654,E04011555,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+PensilvaZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+PensilvaZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+31,Cornwall FA,West,Pensilva Youth,75783,Accredited,1,2,1-4,Club,GRF,Parent,,39e670e1-1480-e311-8b4d-001e4f28882a,PENSILVA YOUTH FOOTBALL CLUB,"School Road Pensilva",Liskeard,Cornwall,PL14 5RP,1042509,-4.41036,50.5037499,E04011555,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Pensilva YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Pensilva YouthZPensilva Under 6sZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+"
+32,Cornwall FA,West,St Cleer & Liskeard Youth FC,70611,In Progress,2,11,11-20,Club,GRF,Child,73071.0,129bd6e7-1480-e311-8b4d-001e4f28882a,ST CLEER SPORTS GROUND,ROAD FROM JUNCTION SOUTH WEST OF COMMON MOOR TO FORE STREET,ST CLEER,Cornwall,PL14 6EE,6000391,-4.47803,50.48713,E04011535,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Cleer & Liskeard Youth FCZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+St Cleer & Liskeard Youth FCZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+St Cleer & Liskeard Youth FCZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+St Cleer & Liskeard Youth FCZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU18ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Cleer & Liskeard Youth FCZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+33,Cornwall FA,West,Launceston,72756,In Progress,1,4,1-4,Club,NLS 5-6,Parent,,af176ecf-1480-e311-8b4d-001e4f28882a,PENNYGILLIAM PITCH,"PENNYGILLAM WAY PENNYGILLAM INDUSTRIAL ESTATE",LAUNCESTON,Cornwall,PL15 7ED,6000020,-4.3732429,50.6273883,E04011466,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+LauncestonZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+LauncestonZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+LauncestonZDevelopmentZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+LauncestonZWomenZNLS 5-6ZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZ
+"
+34,Cornwall FA,West,North Hill,74845,In Progress,1,1,1-4,Club,GRF,Parent,,089bd6e7-1480-e311-8b4d-001e4f28882a,NORTH HILL FOOTBALL CLUB,"WAYCROSS COTTAGE NORTH HILL",LAUNCESTON,Cornwall,PL15 7NH,6000819,-4.4298,50.56616,E04011496,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+North HillZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+35,Cornwall FA,West,Altarnun,73009,Accredited,1,1,1-4,Club,GRF,Parent,,129574d5-1480-e311-8b4d-001e4f28882a,TRESIBBETT,Altarnun,LAUNCESTON,Cornwall,PL15 7RF,6000032,-4.50681,50.61283,E04011400,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+AltarnunZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+36,Cornwall FA,West,North Petherwin,74853,In Progress,1,2,1-4,Club,GRF,Parent,,6f9bd6e7-1480-e311-8b4d-001e4f28882a,NORTH PETHERWIN FOOTBALL CLUB GROUNDS,Hellescott Road,LAUNCESTON,Cornwall,PL15 8LR,1041444,-4.43577,50.6814899,E04011497,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+North PetherwinZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+North PetherwinZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+37,Cornwall FA,West,North Petherwin Youth,88842,Accredited,1,1,1-4,Club,GRF,Parent,,201487d1-8daf-e911-9cc0-005056bc75a7,NORTH PETHERWIN FOOTBALL CLUB GROUNDS,Hellescott Road,LAUNCESTON,Cornwall,PL15 8LR,1041444,-4.434769999999999,50.6814899,E04011497,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+North Petherwin YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+38,Cornwall FA,West,Southgate Colts,78101,In Progress,1,18,11-20,Club,GRF,Parent,,6ce670e1-1480-e311-8b4d-001e4f28882a,LAUNCESTON COLLEGE PLAYING FIELDS,LANDLAKE ROAD,LAUNCESTON,Cornwall,PL15 9HP,30010789,-4.3609376,50.627822,E04011466,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Southgate ColtsZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU13ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZBluesZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Southgate ColtsZBluesZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZBluesZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZBluesZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Southgate ColtsZBluesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Southgate ColtsZBluesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZBluesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Southgate ColtsZColtsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Southgate ColtsZColtsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Southgate ColtsZLionsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Southgate ColtsZLionsZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+"
+39,Cornwall FA,West,Southgate Seniors,81364,In Progress,1,1,1-4,Club,GRF,Parent,,53c65b3a-1d80-e311-8b4d-001e4f28882a,LAUNCESTON COLLEGE,HURDON ROAD,LAUNCESTON,Cornwall,PL15 9JR,1207067,-4.3587257,50.6300283,E04011466,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Southgate SeniorsZVeterans 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+40,Cornwall FA,West,Callington Colts,75025,In Progress,1,8,5-10,Club,GRF,Parent,,29e670e1-1480-e311-8b4d-001e4f28882a,CALLINGTON COMMUNITY SPORTS CENTRE,LAUNCESTON ROAD,CALLINGTON,Cornwall,PL17 7DR,1005734,-4.307801133333333,50.50615863333333,E04011411,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Callington ColtsZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZZGRFZU18ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Callington ColtsZRedsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+"
+41,Cornwall FA,West,Callington Town,75026,In Progress,1,2,1-4,Club,NLS 5-6,Parent,,95176ecf-1480-e311-8b4d-001e4f28882a,GINSTERS MARSHFIELD PARC,LAUNCESTON ROAD,CALLINGTON,Cornwall,PL17 7DR,30005220,-4.306801133333333,50.50615863333333,E04011411,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Callington TownZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Callington TownZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+42,Cornwall FA,West,Callington Town Women FC,75027,In Progress,1,1,1-4,Club,Womens Tier Step 3-6,Child,75026.0,5b9bd6e7-1480-e311-8b4d-001e4f28882a,GINSTERS MARSHFIELD PARC,LAUNCESTON ROAD,CALLINGTON,Cornwall,PL17 7DR,30005220,-4.3058011333333335,50.50615863333333,E04011411,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Callington Town Women FCZ1stZWomens Tier Step 3-6ZOpenZAdultZFemaleZNonDisabilityZTier 7 Womens County LeaguesZ11v11ZFootballZCornwall Women's Football League
+"
+43,Cornwall FA,West,King Doniert's,104395,Accredited,1,1,1-4,Club,GRF,Parent,,67c1f5c3-e3ad-ed11-aef2-005056bc004e,CALLINGTON COMMUNITY SPORTS CENTRE,LAUNCESTON ROAD,CALLINGTON,Cornwall,PL17 7DR,1005734,-4.304801133333333,50.50615863333333,E04011411,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+King Doniert'sZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+"
+44,Cornwall FA,West,Cornwall College - Men,72275,In Progress,1,2,1-4,Club,GRF,Parent,,659bd6e7-1480-e311-8b4d-001e4f28882a,DUCHY COLLEGE STOKE CLIMSLAND,STOKE CLIMSLAND,CALLINGTON,Cornwall,PL17 8PB,1206107,-4.3242046,50.5462286,E04011589,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Cornwall College - MenZDCSZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEFL Community & Education Football Alliance
+Cornwall College - MenZMen's 2nd XIZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDevon Wednesday League
+"
+45,Cornwall FA,West,Kelliwik Youth FC,86427,In Progress,1,19,11-20,Club,GRF,Parent,,38a84e11-c56b-e711-ae83-005056bc75a7,DUCHY COLLEGE STOKE CLIMSLAND,STOKE CLIMSLAND,CALLINGTON,Cornwall,PL17 8PB,1206107,-4.3232045999999995,50.5462286,E04011589,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Kelliwik Youth FCZZGRFZU11ZYouthZMixedZNonDisabilityZFriendlyZ9v9ZFootballZCornwall Youth Football League
+Kelliwik Youth FCZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Kelliwik Youth FCZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Kelliwik Youth FCZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Kelliwik Youth FCZGirlsZGRFZU14ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZGoldsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZKobrasZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZMini KickersZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+Kelliwik Youth FCZUnitedZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZUnitedZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Kelliwik Youth FCZUnitedZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZUnitedZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZUnitedZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZAdrenalin Devon Junior & Minor League
+Kelliwik Youth FCZYouthZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZ
+"
+46,Cornwall FA,West,Calstock,75032,In Progress,1,1,1-4,Club,GRF,Parent,,1b9574d5-1480-e311-8b4d-001e4f28882a,CALSTOCK RECREATION FIELD,The Adits,CALSTOCK,Cornwall,PL18 9QR,6000388,-4.2054,50.49588,E04011412,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+CalstockZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+47,Cornwall FA,West,Gunnislake,78355,Accredited,1,3,1-4,Club,GRF,Parent,,bd8c71db-1480-e311-8b4d-001e4f28882a,BUTTS MEADOW,THE BUTTS,CALSTOCK,Cornwall,PL18 9SD,30007850,-4.22084,50.50462,E04011412,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+GunnislakeZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+GunnislakeZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+GunnislakeZGunnislake VeteransZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+48,Cornwall FA,West,Lostwithiel FC,73300,In Progress,1,2,1-4,Club,GRF,Parent,,e751f0c7-1b80-e311-8b4d-001e4f28882a,KING GEORGE V PLAYING FIELD (LOSTWITHIEL),LOSTWITHIEL COMMUNITY CENTRE PLEYBER CHRIST WAY,LOSTWITHIEL,Cornwall,PL22 0HA,6005937,-4.6688166,50.4089654,E04011474,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Lostwithiel FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Lostwithiel FCZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+49,Cornwall FA,West,Lostwithiel Youth Football Club,104704,In Progress,1,1,1-4,Club,GRF,Parent,,acf59689-3ad9-ed11-aef2-005056bc004e,KING GEORGE V PLAYING FIELD (LOSTWITHIEL),LOSTWITHIEL COMMUNITY CENTRE PLEYBER CHRIST WAY,LOSTWITHIEL,Cornwall,PL22 0HA,6005937,-4.6678166,50.4089654,E04011474,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Lostwithiel Youth Football ClubZLionsZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+50,Cornwall FA,West,AFC St Blazey Youth,83889,Accredited,1,23,21-30,Club,GRF,Child,78316.0,fca48cbc-35f2-e311-9f66-005056bc2dbb,FOWEY RIVER ACADEMY SPORTS CENTRE,Windmill,Fowey,Cornwall,PL23 1HE,1206546,-4.6436439,50.3350202,E04011436,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+AFC St Blazey YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZZGRFZU18ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZBearsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZCobrasZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZCyclonesZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZDragonsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZDynamosZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZGirlsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZHawksZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZLionsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZMinersZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZMini KickersZGRFZU5ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+AFC St Blazey YouthZPanthersZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZPhoenixZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZPumasZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZRaptorsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZScorpionsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZSharksZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZSharksZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZTigersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+AFC St Blazey YouthZVipersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+51,Cornwall FA,West,St Blazey,78316,Accredited,1,3,1-4,Club,NLS 5-6,Parent,,eb9474d5-1480-e311-8b4d-001e4f28882a,BLAISE PARK,ST BLAZEY SPORTS & SOCIAL CLUB STATION ROAD,ST BLAZEY,Cornwall,PL24 2ND,6001021,-4.714454,50.3606782,E04011531,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St BlazeyZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 5Z11v11ZFootballZWestern Football League
+St BlazeyZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St BlazeyZ3rdZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+52,Cornwall FA,West,Clays Veterans,88689,Accredited,1,1,1-4,Club,GRF,Parent,,8dfd6acb-38a2-e911-8a2f-005056bc004e,PAR TRACK,MOORLAND ROAD,Par,Cornwall,PL24 2PB,1011426,-4.70163,50.35279,E04011601,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Clays VeteransZ1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+53,Cornwall FA,West,Royal Par Veterans,82602,Accredited,1,1,1-4,Club,GRF,Parent,,4ce64c7a-1f80-e311-8b4d-001e4f28882a,PAR TRACK,MOORLAND ROAD,Par,Cornwall,PL24 2PB,1011426,-4.700629999999999,50.35279,E04011601,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Royal Par VeteransZ1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+54,Cornwall FA,West,Biscovey,74011,In Progress,1,10,5-10,Club,GRF,Parent,,ff9ad6e7-1480-e311-8b4d-001e4f28882a,STARRICK MOOR,,Par,Cornwall,PL24 2SX,1041712,-4.74913,50.3726,E04011476,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+BiscoveyZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+BiscoveyZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+BiscoveyZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+BiscoveyZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+BiscoveyZBiscovey GirlsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+BiscoveyZBiscovey GirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+BiscoveyZBiscovey unitedZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+BiscoveyZColtsZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+BiscoveyZRangersZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+BiscoveyZWomenZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+55,Cornwall FA,West,St Austell,87229,Accredited,1,1,1-4,Club,GRF,Parent,,e65b2442-ab7a-e811-b2f6-005056bc2dbb,POLTAIR SCHOOL,TREVARTHIAN ROAD,St. Austell,Cornwall,PL25 4BZ,1008018,-4.7866729,50.3427052,E04013080,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St AustellZWalkingZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+56,Cornwall FA,West,AFC St Austell,78313,In Progress,1,2,1-4,Club,NLS 5-6,Parent,,e99474d5-1480-e311-8b4d-001e4f28882a,ST AUSTELL AFC,TREVARTHIAN ROAD,St. Austell,Cornwall,PL25 4LA,1042530,-4.78991,50.33938,E04013080,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+AFC St AustellZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+AFC St AustellZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZWestern Football League
+AFC St AustellZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+57,Cornwall FA,West,AFC St Austell Ladies,88629,In Progress,1,1,1-4,Club,GRF,Child,78313.0,10181a16-9d9d-e911-8a2f-005056bc004e,ST AUSTELL AFC,TREVARTHIAN ROAD,St. Austell,Cornwall,PL25 4LA,1042530,-4.78891,50.33938,E04013080,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+AFC St Austell LadiesZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZTier 5 Womens Regional League PremierZ11v11ZFootballZSouth West Women's Football League
+"
+58,Cornwall FA,West,AFC St Austell Youth,82254,In Progress,1,1,1-4,Club,GRF,Child,78313.0,0a14e5c1-1e80-e311-8b4d-001e4f28882a,ST AUSTELL AFC,TREVARTHIAN ROAD,St. Austell,Cornwall,PL25 4LA,1042530,-4.78791,50.33938,E04013080,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+AFC St Austell YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+59,Cornwall FA,West,Gorran,78161,In Progress,1,1,1-4,Club,GRF,Parent,,f08c71db-1480-e311-8b4d-001e4f28882a,BELL HILL PLAYING FIELD,PLAYING FIELD (BELL HILL) BELL HILL,GORRAN HAVEN,Cornwall,PL26 6HP,6000118,-4.80541,50.2446,E04011552,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+GorranZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+60,Cornwall FA,West,Gorran Walking Football,106215,In Progress,1,1,1-4,Club,GRF,Parent,,a3b24739-6b30-ee11-81cc-005056bc5e93,BELL HILL PLAYING FIELD,PLAYING FIELD (BELL HILL) BELL HILL,GORRAN HAVEN,Cornwall,PL26 6HP,6000118,-4.80441,50.2446,E04011552,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Gorran Walking FootballZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+61,Cornwall FA,West,Mevagissey,73899,In Progress,1,1,1-4,Club,GRF,Parent,,e78c71db-1480-e311-8b4d-001e4f28882a,MEVAGISSEY ACTIVITY CENTRE,"Valley Road Mevagissey",St. Austell,Cornwall,PL26 6SA,6000860,-4.79586,50.2745,E04011487,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+MevagisseyZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+62,Cornwall FA,West,Mevagissey Youth FC,108494,Accredited,1,3,1-4,Club,GRF,Parent,,517a4df3-72f2-ee11-8be2-005056bc6f4c,MEVAGISSEY ACTIVITY CENTRE,"Valley Road Mevagissey",St. Austell,Cornwall,PL26 6SA,6000860,-4.79486,50.2745,E04011487,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Mevagissey Youth FCZFalconsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Mevagissey Youth FCZMavericksZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Mevagissey Youth FCZPiratesZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+63,Cornwall FA,West,"""Saints"" St Austell",87222,Accredited,1,1,1-4,Club,GRF,Parent,,314b55e9-117a-e811-8915-005056bc2dbb,TREGORRICK LEISURE CENTRE,TREGORRICK,St. Austell,Cornwall,PL26 7AG,1008017,-4.79044,50.32697,E04013072,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+""""""Saints"""" St Austell""ZWalkingZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ5v5ZWalking FootballZAge UK Cornwall Walking Football League
+"
+64,Cornwall FA,West,Tregorrick Park Youth,79973,In Progress,1,11,11-20,Club,GRF,Child,78313.0,c5c6cd94-1a80-e311-8b4d-001e4f28882a,TREGORRICK PARK YFC,"PLAYING FIELD ACCESS TO ST AUSTELL RUGBY CLUB TREGORRICK",ST AUSTELL,Cornwall,PL26 7AG,30007856,-4.78944,50.32697,E04013072,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Tregorrick Park YouthZ VikingsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZCobrasZGRFZU8ZYouthZMaleZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZLionsZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZPanthersZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZPiratesZGRFZU9ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZSharksZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZTitansZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZTregorrick Hell CatsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZTregorrick TigersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZTurbosZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Tregorrick Park YouthZVipersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+65,Cornwall FA,West,Charlestown Women,81243,In Progress,2,1,1-4,Club,GRF,Parent,,176ed355-1d80-e311-8b4d-001e4f28882a,ST MEWAN PARK,,St. Austell,Cornwall,PL26 7DT,1041888,-4.82187,50.32764,E04013090,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Charlestown WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+66,Cornwall FA,West,Charlestown Youth,75356,In Progress,2,21,21-30,Club,GRF,Child,79114.0,44e670e1-1480-e311-8b4d-001e4f28882a,ST MEWAN PARK,,St. Austell,Cornwall,PL26 7DT,1041888,-4.820869999999999,50.32764,E04013090,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Charlestown YouthZAngelsZGRFZU9ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Charlestown YouthZAtleticoZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Charlestown YouthZBobcatsZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZCavaliersZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZCheetahsZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZChiefsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZChoughsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Charlestown YouthZColtsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Charlestown YouthZEaglesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Charlestown YouthZFalconsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Charlestown YouthZHawksZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Charlestown YouthZLionsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Charlestown YouthZPhoenixZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall U18 Girls Football League
+Charlestown YouthZPhoenixZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZRaidersZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Charlestown YouthZRealZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Charlestown YouthZRhinosZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Charlestown YouthZRobinsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Charlestown YouthZSharksZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Charlestown YouthZTigersZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZUnitedZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Charlestown YouthZWarriorsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+67,Cornwall FA,West,Sticker,79114,In Progress,2,3,1-4,Club,NLS 5-6,Parent,,ff9474d5-1480-e311-8b4d-001e4f28882a,BURNGULLOW PARK,,St. Austell,Cornwall,PL26 7EN,6000858,-4.85004,50.32308,E04013090,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+StickerZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+StickerZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+StickerZSticker U18sZNLS 5-6ZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+68,Cornwall FA,West,Sticker Women,98898,In Progress,2,1,1-4,Club,GRF,Child,79114.0,ee76c31a-f603-ec11-ae3b-005056bc75a7,BURNGULLOW PARK,,St. Austell,Cornwall,PL26 7EN,6000858,-4.84904,50.32308,E04013090,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Sticker WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZTier 6 Womens Regional Leagues OtherZ11v11ZFootballZSouth West Women's Football League
+"
+69,Cornwall FA,West,St Stephen,495,Accredited,1,1,1-4,Club,GRF,Parent,,2ae670e1-1480-e311-8b4d-001e4f28882a,ST STEPHENS RECREATION GROUND,Trethosa Road,St. Austell,Cornwall,PL26 7PZ,6005807,-4.8924899,50.34848,E04011580,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St StephenZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+70,Cornwall FA,West,Cornwall FA Girls Emerging Talent Centre,81255,Non Accredited,0,6,5-10,Club,GRF,Parent,,7d5846af-db81-e211-8094-005056a80055,BRANNEL SCHOOL,"RECTORY ROAD ST. STEPHEN",St. Austell,Cornwall,PL26 7RN,1206538,-4.891398,50.3385964,E04011580,
+71,Cornwall FA,West,Plymouth Argyle Centre of Excellence Cornwall,83135,Non Accredited,0,107,50+,Club,GRF,Parent,,2ae44dd0-2080-e311-8b4d-001e4f28882a,BRANNEL SCHOOL,"RECTORY ROAD ST. STEPHEN",St. Austell,Cornwall,PL26 7RN,1206538,-4.890397999999999,50.3385964,E04011580,
+72,Cornwall FA,West,St Stephen Youth,78761,In Progress,1,8,5-10,Club,GRF,Parent,,d59ad6e7-1480-e311-8b4d-001e4f28882a,BRANNEL SCHOOL,"RECTORY ROAD ST. STEPHEN",St. Austell,Cornwall,PL26 7RN,1206538,-4.889398,50.3385964,E04011580,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Stephen YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Stephen YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Stephen YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Stephen YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Stephen YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+St Stephen YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Stephen YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+St Stephen YouthZUnitedZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+73,Cornwall FA,West,Foxhole Stars,77637,Accredited,1,1,1-4,Club,GRF,Parent,,a1176ecf-1480-e311-8b4d-001e4f28882a,GOVERSETH,Goverseth Road,St. Austell,Cornwall,PL26 7WH,6000853,-4.8633499,50.35967,E04011580,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Foxhole StarsZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+74,Cornwall FA,West,Foxhole Stars Youth,85498,Accredited,1,1,1-4,Club,GRF,Child,77637.0,2ae8aeb9-db48-e611-8f84-005056bc2dbb,GOVERSETH,Goverseth Road,St. Austell,Cornwall,PL26 7WH,6000853,-4.8623499,50.35967,E04011580,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Foxhole Stars YouthZVixensZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+75,Cornwall FA,West,Nanpean Rovers,74411,Accredited,1,1,1-4,Club,GRF,Parent,,be9474d5-1480-e311-8b4d-001e4f28882a,VICTORIA PARK,Fore Street,St. Austell,Cornwall,PL26 7YE,6005923,-4.8695199,50.36898,E04011580,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Nanpean RoversZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+76,Cornwall FA,West,St Dennis,78513,In Progress,1,2,1-4,Club,NLS 5-6,Parent,,f69474d5-1480-e311-8b4d-001e4f28882a,BOSCAWEN PARK,WHITEGATE,St. Austell,Cornwall,PL26 8DH,6002432,-4.88746,50.38411,E04011540,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St DennisZDevelopmentZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St DennisZWomenZNLS 5-6ZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+77,Cornwall FA,West,St Dennis Youth,78514,In Progress,1,2,1-4,Club,GRF,Child,78513.0,429bd6e7-1480-e311-8b4d-001e4f28882a,BOSCAWEN PARK,WHITEGATE,St. Austell,Cornwall,PL26 8DH,6002432,-4.88646,50.38411,E04011540,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Dennis YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Dennis YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+78,Cornwall FA,West,Roche,76958,Accredited,1,1,1-4,Club,GRF,Parent,,dc9474d5-1480-e311-8b4d-001e4f28882a,ROCHE FOOTBALL AND SOCIAL COMPLEX,"Trezaise Road Roche",St. Austell,Cornwall,PL26 8HD,6000665,-4.83098,50.40007,E04011517,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+RocheZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+79,Cornwall FA,West,Wadebridge Town,80156,In Progress,2,3,1-4,Club,NLS 5-6,Parent,,0e9574d5-1480-e311-8b4d-001e4f28882a,BODIEVE PARK,Bodieve Road,Wadebridge,Cornwall,PL27 6EA,6006348,-4.82805,50.52213,E04013098,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Wadebridge TownZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Wadebridge TownZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Wadebridge TownZWadebridge Town VeteransZNLS 5-6ZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+80,Cornwall FA,West,Wadebridge Town Women,80157,In Progress,2,1,1-4,Club,GRF,Child,80156.0,f3663d90-ae00-e411-9f66-005056bc2dbb,BODIEVE PARK,Bodieve Road,Wadebridge,Cornwall,PL27 6EA,6006348,-4.82705,50.52213,E04013098,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Wadebridge Town WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+81,Cornwall FA,West,Wadebridge Town Youth,80158,In Progress,2,14,11-20,Club,GRF,Child,80156.0,d69ad6e7-1480-e311-8b4d-001e4f28882a,BODIEVE PARK,Bodieve Road,Wadebridge,Cornwall,PL27 6EA,6006348,-4.82605,50.52213,E04013098,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Wadebridge Town YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZGirlsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZLadiesZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall U18 Girls Football League
+Wadebridge Town YouthZLadiesZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wadebridge Town YouthZWarriorsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+82,Cornwall FA,West,Polzeath Youth,90442,In Progress,1,4,1-4,Club,GRF,Parent,,2cf264b0-8fdc-ea11-b3cf-005056bc2dbb,ST MINVER PLAYING FIELD,"ST MINVER AFC TREWINT LANE ROCK",Wadebridge,Cornwall,PL27 6LT,6006417,-4.9055799,50.5493499,E04011575,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Polzeath YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Polzeath YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Polzeath YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Polzeath YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+83,Cornwall FA,West,St Minver,78675,In Progress,1,2,1-4,Club,GRF,Parent,,45e670e1-1480-e311-8b4d-001e4f28882a,ST MINVER PLAYING FIELD,"ST MINVER AFC TREWINT LANE ROCK",Wadebridge,Cornwall,PL27 6LT,6006417,-4.9045799,50.5493499,E04011575,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St MinverZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St MinverZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+84,Cornwall FA,West,Padstow United,75589,In Progress,2,1,1-4,Club,GRF,Child,102052.0,c69474d5-1480-e311-8b4d-001e4f28882a,JURY PARK,,Padstow,Cornwall,PL28 8LE,6014703,-4.94508,50.5306799,E04011500,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Padstow UnitedZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+85,Cornwall FA,West,Padstow United Women,102052,In Progress,2,1,1-4,Club,GRF,Parent,,2af92e6f-f0f6-ec11-bfce-005056bc75a7,JURY PARK,,Padstow,Cornwall,PL28 8LE,6014703,-4.94408,50.5306799,E04011500,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Padstow United WomenZPadstow United LadiesZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+86,Cornwall FA,West,Padstow United Youth,75590,In Progress,2,7,5-10,Club,GRF,Child,102052.0,e19ad6e7-1480-e311-8b4d-001e4f28882a,JURY PARK,,Padstow,Cornwall,PL28 8LE,6014703,-4.94308,50.5306799,E04011500,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Padstow United YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Padstow United YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Padstow United YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Padstow United YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Padstow United YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Padstow United YouthZPanthersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Padstow United YouthZPiratesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+87,Cornwall FA,West,St Merryn,78673,Accredited,1,1,1-4,Club,GRF,Parent,,14e670e1-1480-e311-8b4d-001e4f28882a,TREVITHICK ESTATE,,Padstow,Cornwall,PL28 8NN,6006442,-4.98758,50.52262,E04011569,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St MerrynZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+88,Cornwall FA,West,St Merryn Youth,71224,In Progress,1,1,1-4,Club,GRF,Parent,,48fcc8f7-9e30-eb11-b410-005056bc004e,TREVITHICK ESTATE,,Padstow,Cornwall,PL28 8NN,6006442,-4.98658,50.52262,E04011569,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Merryn YouthZSt Merryn SpitfiresZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+89,Cornwall FA,West,Big Shots FC,103881,Accredited,1,6,5-10,Club,GRF,Parent,,aa3b96a7-b865-ed11-963f-005056bc004e,ST TUDY PLAYING FIELD,"Redvale Road ST. TUDY",BODMIN,Cornwall,PL30 3AS,6000757,-4.733311779999999,50.55296784,E04011584,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Big Shots FCZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Big Shots FCZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Big Shots FCZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Big Shots FCZZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Big Shots FCZBig Shots Saints Women FcZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+Big Shots FCZMeerkatsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+90,Cornwall FA,West,St Teath,78763,Accredited,1,2,1-4,Club,GRF,Parent,,51e670e1-1480-e311-8b4d-001e4f28882a,ST TEATH RECREATION GROUND,NORTH ROAD,BODMIN,Cornwall,PL30 3JX,6005894,-4.7380338,50.5951622,E04013092,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St TeathZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St TeathZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+91,Cornwall FA,West,St Teath Youth,78764,Accredited,1,11,11-20,Club,GRF,Child,78763.0,ed9ad6e7-1480-e311-8b4d-001e4f28882a,ST TEATH RECREATION GROUND,NORTH ROAD,BODMIN,Cornwall,PL30 3JX,6005894,-4.7370338,50.5951622,E04013092,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Teath YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Teath YouthZZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Teath YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Teath YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Teath YouthZZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Teath YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Teath YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+St Teath YouthZGirlsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Teath YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Teath YouthZGirlsZGRFZU12ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Teath YouthZKernow KickersZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+"
+92,Cornwall FA,West,St Breward,78317,In Progress,1,1,1-4,Club,GRF,Parent,,ef9474d5-1480-e311-8b4d-001e4f28882a,BRAKE PARC,"BRAKE FARM FLORENCE ROSE PENVORDER LANE ST. BREWARD",BODMIN,Cornwall,PL30 4NY,6006473,-4.68923065,50.55212415,E04011533,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St BrewardZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+93,Cornwall FA,West,Lanivet Inn,72740,In Progress,1,3,1-4,Club,GRF,Parent,,c69ad6e7-1480-e311-8b4d-001e4f28882a,ONE FOR ALL LANIVET PARISH COMMUNITY CENTRE,"CARTERS PARC RECTORY ROAD LANIVET",BODMIN,Cornwall,PL30 5HG,30008180,-4.76212,50.44268,E04011459,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Lanivet InnZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+Lanivet InnZLaniVETS 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+Lanivet InnZWalking FootballZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+94,Cornwall FA,West,Lanivet Youth,88719,In Progress,1,6,5-10,Club,GRF,Child,72740.0,665a140f-89a4-e911-9cc0-005056bc75a7,ONE FOR ALL LANIVET PARISH COMMUNITY CENTRE,"CARTERS PARC RECTORY ROAD LANIVET",BODMIN,Cornwall,PL30 5HG,30008180,-4.76112,50.44268,E04011459,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Lanivet YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Lanivet YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Lanivet YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Lanivet YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Lanivet YouthZIntroduction to FootballZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZ
+Lanivet YouthZIntroduction to FootballZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZ
+"
+95,Cornwall FA,West,Bodmin Youth,74256,In Progress,2,17,11-20,Club,GRF,Parent,,f39ad6e7-1480-e311-8b4d-001e4f28882a,COLDHARBOUR PLAYING FIELD,Castle Canyke Road,BODMIN,Cornwall,PL31 1DU,6000048,-4.715,50.46571,E04011404,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Bodmin YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Bodmin YouthZBadgersZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bodmin YouthZBeesZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZGirlsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bodmin YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bodmin YouthZGirlsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall U18 Girls Football League
+Bodmin YouthZGirlsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZGirlsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZHornetsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Bodmin YouthZUnitedZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Bodmin YouthZUnitedZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+96,Cornwall FA,West,Bodmin Town,74291,In Progress,1,2,1-4,Club,NLS 5-6,Parent,,8d176ecf-1480-e311-8b4d-001e4f28882a,PRIORY PARK (BODMIN),PRIORY ROAD,BODMIN,Cornwall,PL31 2AE,6006477,-4.71567,50.47065,E04011404,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Bodmin TownZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Bodmin TownZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+97,Cornwall FA,West,Bodmin Women,88625,In Progress,2,1,1-4,Club,GRF,Child,74256.0,3131d64c-929d-e911-8a2f-005056bc004e,PRIORY PARK (BODMIN),PRIORY ROAD,BODMIN,Cornwall,PL31 2AE,6006477,-4.71467,50.47065,E04011404,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Bodmin WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+98,Cornwall FA,West,Callywith College,88609,Non Accredited,0,3,1-4,Education,College,Parent,,06cc6172-b99c-e911-9a3f-005056bc2dbb,CALLYWITH COLLEGE,OLD CALLYWITH ROAD,BODMIN,Cornwall,PL31 2GT,30007255,-4.7078248,50.47656735,E04011404,
+99,Cornwall FA,West,St Neot Association Football Club,99068,In Progress,1,2,1-4,Club,GRF,Parent,,50f8072a-bb0f-ec11-98f4-005056bc004e,CALLYWITH COLLEGE,OLD CALLYWITH ROAD,BODMIN,Cornwall,PL31 2GT,30007255,-4.7068248,50.47656735,E04011404,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Neot Association Football ClubZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+St Neot Association Football ClubZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St Neot Association Football ClubZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+"
+100,Cornwall FA,West,Camelford,75103,In Progress,1,1,1-4,Club,NLS 5-6,Parent,,97176ecf-1480-e311-8b4d-001e4f28882a,TREFREW PARK,,Camelford,Cornwall,PL32 9TS,1041445,-4.67433,50.62745,E04011414,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+CamelfordZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+"
+101,Cornwall FA,West,Camelford Youth,88489,In Progress,1,5,5-10,Club,GRF,Child,75103.0,442bd3b6-7796-e911-8a2f-005056bc004e,TREFREW PARK,,Camelford,Cornwall,PL32 9TS,1041445,-4.67333,50.62745,E04011414,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Camelford YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Camelford YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Camelford YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Camelford YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Camelford YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+102,Cornwall FA,West,Delabole United,102349,In Progress,1,1,1-4,Club,GRF,Parent,,4c1c7464-5403-ed11-8349-005056bc2dbb,DELABOLE PRIMARY SCHOOL,High Street,Delabole,Cornwall,PL33 9AL,6013843,-4.7335809,50.6225513,E04013055,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Delabole UnitedZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+103,Cornwall FA,West,Tintagel OB FC,102457,Accredited,1,1,1-4,Club,GRF,Parent,,c57f7790-3e08-ed11-bfce-005056bc75a7,TINTAGEL MEMORIAL PLAYING FIELDS,THE BUTTS,TINTAGEL,Cornwall,PL34 0AT,20000782,-4.74287,50.66566,E04011590,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Tintagel OB FCZVeteransZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+104,Cornwall FA,West,Boscastle,74329,In Progress,1,2,1-4,Club,GRF,Parent,,189574d5-1480-e311-8b4d-001e4f28882a,FORRABURY PARK,GREEN LANE,Boscastle,Cornwall,PL35 0DP,6005816,-4.69786,50.68328,E04011435,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+BoscastleZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+BoscastleZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+105,Cornwall FA,West,Veor FC Youth,109058,Accredited,1,1,1-4,Club,GRF,Parent,,9806bb6c-9a29-ef11-8be2-005056bc6f4c,TREMORVAH PARK PLAYING FIELD,MONTEREY GARDENS,TRURO,Cornwall,TR1 1JX,6017849,-5.04561,50.26837,E04013097,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Veor FC YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+106,Cornwall FA,West,Grasshoppers Youth,80000,In Progress,2,10,5-10,Club,GRF,Parent,,c82403e0-1b80-e311-8b4d-001e4f28882a,BOSCAWEN PARK (TRURO),BOSCAWEN PARK MALPAS ROAD,TRURO,Cornwall,TR1 1SG,20000295,-5.03696545,50.2529573,E04013097,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Grasshoppers YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Grasshoppers YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Grasshoppers YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Grasshoppers YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Grasshoppers YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Grasshoppers YouthZExtra WhitesZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Grasshoppers YouthZPenrynZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Grasshoppers YouthZPerranwellZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Grasshoppers YouthZPerranwellZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Grasshoppers YouthZRedsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+107,Cornwall FA,West,Threemilestone,79874,In Progress,1,1,1-4,Club,GRF,Parent,,5ae670e1-1480-e311-8b4d-001e4f28882a,BOSCAWEN PARK (TRURO),BOSCAWEN PARK MALPAS ROAD,TRURO,Cornwall,TR1 1SG,20000295,-5.03596545,50.2529573,E04013097,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+ThreemilestoneZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+108,Cornwall FA,West,Threemilestone Tigers,82780,In Progress,1,1,1-4,Club,GRF,Parent,,60d063da-1f80-e311-8b4d-001e4f28882a,BOSCAWEN PARK (TRURO),BOSCAWEN PARK MALPAS ROAD,TRURO,Cornwall,TR1 1SG,20000295,-5.0349654500000005,50.2529573,E04013097,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Threemilestone TigersZZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+109,Cornwall FA,West,Saints Southwest Cornwall,438,Accredited,1,8,5-10,Club,GRF,Parent,,33539c94-4bf3-ea11-9f4b-005056bc75a7,SIR BEN AINSLIE SPORTS CENTRE,TRENNICK LANE,TRURO,Cornwall,TR1 1TH,1011331,-5.04104855,50.25993805,E04013097,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Saints Southwest CornwallZZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZJunior Premier League
+Saints Southwest CornwallZZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZJunior Premier League
+Saints Southwest CornwallZZGRFZU13ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZJunior Premier League
+Saints Southwest CornwallZZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZ
+Saints Southwest CornwallZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZ
+Saints Southwest CornwallZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZ
+Saints Southwest CornwallZZGRFZU8ZYouthZMaleZNonDisabilityZNon-NLSZ5v5ZFootballZ
+Saints Southwest CornwallZTruro Development CentreZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZ
+"
+110,Cornwall FA,West,Truro Walking Football,87044,Non Accredited,0,1,1-4,Club,GRF,Parent,,b246f8db-856d-e811-8915-005056bc2dbb,SIR BEN AINSLIE SPORTS CENTRE,TRENNICK LANE,TRURO,Cornwall,TR1 1TH,1011331,-5.04004855,50.25993805,E04013097,
+111,Cornwall FA,West,Truro Bluebirds,110431,Non Accredited,0,1,1-4,Club,GRF,Parent,,20ed2543-ae87-ef11-9622-005056bc5e93,KENWYN PARK,KENWYN ROAD,TRURO,Cornwall,TR1 3EQ,30007821,-5.06739,50.27307,E04013097,
+112,Cornwall FA,West,Truro City Youth,79999,In Progress,2,17,11-20,Club,GRF,Parent,,6be670e1-1480-e311-8b4d-001e4f28882a,KENWYN PARK,KENWYN ROAD,TRURO,Cornwall,TR1 3EQ,30007821,-5.066389999999999,50.27307,E04013097,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Truro City YouthZZGRFZU10ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Truro City YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Truro City YouthZZGRFZU13ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Truro City YouthZZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Truro City YouthZBravesZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Truro City YouthZGreysZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Truro City YouthZJaguarsZGRFZU10ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Truro City YouthZJetsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Truro City YouthZLionsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Truro City YouthZPumasZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Truro City YouthZRaidersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Truro City YouthZRangersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Truro City YouthZRocketsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Truro City YouthZSilversZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Truro City YouthZTitansZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Truro City YouthZTornadosZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Truro City YouthZVenomZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+113,Cornwall FA,West,Truro College,82201,Non Accredited,0,6,5-10,Education,College,Parent,,be14dd9d-1e80-e311-8b4d-001e4f28882a,TRURO AND PENWITH COLLEGE (TRURO CAMPUS),COLLEGE ROAD,TRURO,Cornwall,TR1 3XX,1014331,-5.1009665625,50.262851175,E04011451,
+114,Cornwall FA,West,Falmouth United,87008,In Progress,2,1,1-4,Club,GRF,Parent,,c0ac30c2-7669-e811-8915-005056bc2dbb,PENRYN COLLEGE,KERNICK ROAD,PENRYN,Cornwall,TR10 8PZ,1207086,-5.1172827,50.1672101,E04013071,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth UnitedZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+115,Cornwall FA,West,Falmouth United Youth,77352,In Progress,2,13,11-20,Club,GRF,Child,87008.0,099bd6e7-1480-e311-8b4d-001e4f28882a,PENRYN COLLEGE,KERNICK ROAD,PENRYN,Cornwall,TR10 8PZ,1207086,-5.116282699999999,50.1672101,E04013071,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth United YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU10ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU9ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth United YouthZZGRFZU7ZYouthZMaleZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Falmouth United YouthZRangersZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth United YouthZRangersZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth United YouthZRangersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth United YouthZRangersZGRFZU8ZYouthZMaleZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+116,Cornwall FA,West,Penryn Athletic,75779,In Progress,1,3,1-4,Club,GRF,Parent,,cd9474d5-1480-e311-8b4d-001e4f28882a,PENRYN ATHLETIC FOOTBALL CLUB,KERNICK ROAD,PENRYN,Cornwall,TR10 8QE,1040917,-5.11652,50.16418,E04013071,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Penryn AthleticZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Penryn AthleticZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Penryn AthleticZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+117,Cornwall FA,West,Penryn Women,83959,In Progress,1,1,1-4,Club,GRF,Child,75779.0,4f1eb95b-cb05-e411-9f66-005056bc2dbb,PENRYN ATHLETIC FOOTBALL CLUB,KERNICK ROAD,PENRYN,Cornwall,TR10 8QE,1040917,-5.11552,50.16418,E04013071,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Penryn WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+118,Cornwall FA,West,Falmouth Athletic FC,98044,Accredited,1,1,1-4,Club,GRF,Parent,,4d6a8c09-c0e3-eb11-98f4-005056bc004e,THE DRACAENA CENTRE,Dracaena Avenue,FALMOUTH,Cornwall,TR11 2EL,6007014,-5.0812092,50.1549578,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth Athletic FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+119,Cornwall FA,West,Falmouth DC,84112,In Progress,1,1,1-4,Club,GRF,Parent,,e433db29-9a18-e411-9f66-005056bc2dbb,THE DRACAENA CENTRE,Dracaena Avenue,FALMOUTH,Cornwall,TR11 2EL,6007014,-5.0802092,50.1549578,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth DCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+120,Cornwall FA,West,Camborne School Of Mines,75045,In Progress,1,1,1-4,Club,GRF,Parent,,1e9574d5-1480-e311-8b4d-001e4f28882a,FALMOUTH SCHOOL,TRESCOBEAS ROAD,FALMOUTH,Cornwall,TR11 4LH,1206497,-5.0964087,50.1584023,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Camborne School Of MinesZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+121,Cornwall FA,West,Falmouth Community Youth,77351,In Progress,1,24,21-30,Club,GRF,Parent,,509bd6e7-1480-e311-8b4d-001e4f28882a,FALMOUTH SCHOOL,TRESCOBEAS ROAD,FALMOUTH,Cornwall,TR11 4LH,1206497,-5.095408699999999,50.1584023,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth Community YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZBuzzardsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth Community YouthZCondorsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth Community YouthZEaglesZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZFalcons BlackZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Falmouth Community YouthZFalcons YellowZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Falmouth Community YouthZFalmouth U6ZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+Falmouth Community YouthZFinchesZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZFirecrestsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZHarriersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth Community YouthZHawksZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZJaysZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZKestrelsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth Community YouthZKitesZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZMerlinsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Falmouth Community YouthZOspreysZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZPeregrinesZGRFZU12ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth Community YouthZPhoenixZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZRaptorsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Falmouth Community YouthZRavensZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth Community YouthZRazorbillsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Falmouth Community YouthZstarlingsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth Community YouthZSwiftsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Falmouth Community YouthZTawniesZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+122,Cornwall FA,West,Falmouth WF,99573,Accredited,1,1,1-4,Club,GRF,Parent,,0db08767-4133-ec11-99d9-005056bc004e,FALMOUTH SCHOOL,TRESCOBEAS ROAD,FALMOUTH,Cornwall,TR11 4LH,1206497,-5.0944087,50.1584023,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth WFZWalkingZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+123,Cornwall FA,West,FX Union,84185,In Progress,1,2,1-4,Club,GRF,Parent,,d219a379-4a29-e411-9f66-005056bc2dbb,FALMOUTH SCHOOL,TRESCOBEAS ROAD,FALMOUTH,Cornwall,TR11 4LH,1206497,-5.0934086999999995,50.1584023,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+FX UnionZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZBUCS Men's Football
+FX UnionZSunday 1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+"
+124,Cornwall FA,West,FXSU Women,86115,In Progress,1,1,1-4,Club,GRF,Parent,,93aadfd4-844b-e711-a51e-005056bc75a7,FALMOUTH SCHOOL,TRESCOBEAS ROAD,FALMOUTH,Cornwall,TR11 4LH,1206497,-5.0924087,50.1584023,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+FXSU WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+125,Cornwall FA,West,Tremough Sunday,79974,In Progress,1,2,1-4,Club,GRF,Parent,,93952687-1c80-e311-8b4d-001e4f28882a,FALMOUTH SCHOOL,TRESCOBEAS ROAD,FALMOUTH,Cornwall,TR11 4LH,1206497,-5.0914087,50.1584023,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Tremough SundayZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+Tremough SundayZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship.co.uk West Cornwall Flexi League
+"
+126,Cornwall FA,West,Falmouth Town  AFC,77350,In Progress,1,2,1-4,Club,NLS 5-6,Parent,,9d176ecf-1480-e311-8b4d-001e4f28882a,BICKLAND PARK,Bickland Hill,FALMOUTH,Cornwall,TR11 4PB,6014668,-5.0997,50.15636,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth Town  AFCZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 4Z11v11ZFootballZSouthern League
+Falmouth Town  AFCZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 4Z11v11ZFootballZWestern Football League
+Falmouth Town  AFCZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+127,Cornwall FA,West,Falmouth Town Youth,102316,In Progress,1,1,1-4,Club,GRF,Child,77350.0,f682fd8d-9602-ed11-bfce-005056bc75a7,BICKLAND PARK,Bickland Hill,FALMOUTH,Cornwall,TR11 4PB,6014668,-5.0987,50.15636,E04013058,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Falmouth Town YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+128,Cornwall FA,West,Constantine,75932,In Progress,1,1,1-4,Club,GRF,Parent,,279574d5-1480-e311-8b4d-001e4f28882a,CONSTANTINE RECREATION GROUND,CONSTANTINE RECREATION GROUND TREBARVAH ROAD,CONSTANTINE,Cornwall,TR11 5AG,6020646,-5.1792703,50.1202211,E04011421,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+ConstantineZAFC 1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+129,Cornwall FA,West,Mawnan,73772,Accredited,1,2,1-4,Club,GRF,Parent,,e58c71db-1480-e311-8b4d-001e4f28882a,CARWINION ROAD PLAYING FIELD,Carwinion Road,FALMOUTH,Cornwall,TR11 5JD,6018026,-5.10666,50.11482,E04011485,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+MawnanZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+MawnanZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+130,Cornwall FA,West,St Keverne,78594,Accredited,1,1,1-4,Club,GRF,Parent,,7be670e1-1480-e311-8b4d-001e4f28882a,ST KEVERNE PLAYING FIELDS,School Hill,Helston,Cornwall,TR12 6NQ,6000386,-5.086684833333334,50.04961446666667,E04011561,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St KeverneZSt Keverne 1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+131,Cornwall FA,West,Mullion,74276,In Progress,1,2,1-4,Club,NLS 5-6,Parent,,bb9474d5-1480-e311-8b4d-001e4f28882a,CLIFDEN PARK,Clifden Close,Helston,Cornwall,TR12 7EQ,6017932,-5.24881,50.0231,E04011493,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+MullionZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+MullionZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+132,Cornwall FA,West,Mawgan FC,108997,Non Accredited,0,1,1-4,Club,GRF,Parent,,3304d57a-d727-ef11-b6e3-005056bc5e93,GRADE RUAN RECREATION GROUND,RUAN MINOR,Helston,Cornwall,TR12 7JL,6020600,-5.18202515,49.99308275,E04011439,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Mawgan FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+133,Cornwall FA,West,Lizard Argyle,73111,In Progress,1,2,1-4,Club,GRF,Parent,,dc8c71db-1480-e311-8b4d-001e4f28882a,LIZARD RECREATION GROUND,Beacon Terrace,Helston,Cornwall,TR12 7PB,6001365,-5.1996969,49.969263,E04011454,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Lizard ArgyleZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Lizard ArgyleZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+134,Cornwall FA,West,Lizard Argyle Sunday,86603,In Progress,1,1,1-4,Club,GRF,Parent,,85517780-5899-e711-9786-005056bc2dbb,LIZARD RECREATION GROUND,Beacon Terrace,Helston,Cornwall,TR12 7PB,6001365,-5.1986969,49.969263,E04011454,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Lizard Argyle SundayZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+"
+135,Cornwall FA,West,Culdrose Youth,76258,Accredited,2,19,11-20,Club,GRF,Child,76836.0,459bd6e7-1480-e311-8b4d-001e4f28882a,RNAS CULDROSE COMMUNITY FOOTBALL CLUB,1 MAENLAY COTTAGE,Helston,Cornwall,TR12 7QR,30010832,-5.23334,50.07239,E04011483,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Culdrose YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZAvengersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Culdrose YouthZCyclonesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Culdrose YouthZFalconsZGRFZU9ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Culdrose YouthZGirlsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall U18 Girls Football League
+Culdrose YouthZGirlsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZHarriersZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZHellcatsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Culdrose YouthZHornetsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Culdrose YouthZLightningsZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZMerlinsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZNighthawksZGRFZU7ZYouthZFemaleZNonDisabilityZNon-NLSZ5v5ZFootballZ
+Culdrose YouthZOspreysZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZPanthersZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Culdrose YouthZPhantomsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Culdrose YouthZRavensZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZRavens BluesZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Culdrose YouthZSeahawksZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Culdrose YouthZWaspsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Culdrose YouthZWhirlwindsZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+136,Cornwall FA,West,Rnas Culdrose,76836,Accredited,2,3,1-4,Club,GRF,Parent,,da9474d5-1480-e311-8b4d-001e4f28882a,ROYAL NAVY AIR STATION CULDROSE,,Helston,Cornwall,TR12 7RH,1103638,-5.25797,50.08254,E04011483,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Rnas CuldroseZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Rnas CuldroseZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Rnas CuldroseZVeterans 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+137,Cornwall FA,West,RNAS Culdrose Women,84013,Accredited,2,1,1-4,Club,GRF,Child,76836.0,dfe96134-030c-e411-9f66-005056bc2dbb,ROYAL NAVY AIR STATION CULDROSE,,Helston,Cornwall,TR12 7RH,1103638,-5.25697,50.08254,E04011483,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+RNAS Culdrose WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+138,Cornwall FA,West,Leedstown United Youth FC,72856,Accredited,1,2,1-4,Club,GRF,Parent,,117fe5d3-1b80-e311-8b4d-001e4f28882a,NANCEGOLLAN PLAYING FIELD,"DRYM ROAD NANCEGOLLAN",Helston,Cornwall,TR13 0AN,6004533,-5.30999,50.14291,E04011423,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Leedstown United Youth FCZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Leedstown United Youth FCZLynxZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+139,Cornwall FA,West,Praze-An-Beeble,76216,In Progress,1,1,1-4,Club,GRF,Parent,,0b8d71db-1480-e311-8b4d-001e4f28882a,NANCEGOLLAN PLAYING FIELD,"DRYM ROAD NANCEGOLLAN",Helston,Cornwall,TR13 0AN,6004533,-5.30899,50.14291,E04011423,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Praze-An-BeebleZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+140,Cornwall FA,West,St Ives Mariners,78529,In Progress,1,1,1-4,Club,GRF,Parent,,13e670e1-1480-e311-8b4d-001e4f28882a,NANCEGOLLAN PLAYING FIELD,"DRYM ROAD NANCEGOLLAN",Helston,Cornwall,TR13 0AN,6004533,-5.30799,50.14291,E04011423,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Ives MarinersZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+141,Cornwall FA,West,Storm,79242,In Progress,1,1,1-4,Club,GRF,Parent,,549bd6e7-1480-e311-8b4d-001e4f28882a,NANCEGOLLAN PLAYING FIELD,"DRYM ROAD NANCEGOLLAN",Helston,Cornwall,TR13 0AN,6004533,-5.30699,50.14291,E04011423,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+StormZFC 1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+142,Cornwall FA,West,Wendron United,80349,In Progress,2,6,5-10,Club,NLS 5-6,Parent,,64e670e1-1480-e311-8b4d-001e4f28882a,WENDRON FOOTBALL AND CRICKET CLUB GROUNDS,Underlane,Helston,Cornwall,TR13 0EH,20000784,-5.1928532,50.1625254,E04013099,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Wendron UnitedZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Wendron UnitedZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Wendron UnitedZ3rdZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Wendron UnitedZ4thZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Wendron UnitedZVeterans 1stZNLS 5-6ZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+Wendron UnitedZWalkingZNLS 5-6ZOpenZAdultZMixedZNonDisabilityZNon-NLSZ6v6ZWalking FootballZ
+"
+143,Cornwall FA,West,Wendron United Women,70816,In Progress,2,1,1-4,Club,GRF,Child,80349.0,5f0a458a-ae00-e411-9f66-005056bc2dbb,WENDRON FOOTBALL AND CRICKET CLUB GROUNDS,Underlane,Helston,Cornwall,TR13 0EH,20000784,-5.1918532,50.1625254,E04013099,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Wendron United WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+144,Cornwall FA,West,Wendron United Youth,80350,In Progress,2,13,11-20,Club,GRF,Child,80349.0,c39ad6e7-1480-e311-8b4d-001e4f28882a,WENDRON FOOTBALL AND CRICKET CLUB GROUNDS,Underlane,Helston,Cornwall,TR13 0EH,20000784,-5.1908532,50.1625254,E04013099,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Wendron United YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Wendron United YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Wendron United YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wendron United YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Wendron United YouthZFriendly teamZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Wendron United YouthZWarriorsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Wendron United YouthZWendron BearsZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+Wendron United YouthZWendron EaglesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Wendron United YouthZWendron KamorisZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Wendron United YouthZWendron KikosZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Wendron United YouthZWendron SharksZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Wendron United YouthZWendron U15 developmentZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZ
+Wendron United YouthZWildcatsZGRFZU10ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+145,Cornwall FA,West,Helston Athletic,78731,In Progress,2,5,5-10,Club,NLS 5-6,Parent,,a8176ecf-1480-e311-8b4d-001e4f28882a,KELLAWAY PARK,Clodgey Lane,Helston,Cornwall,TR13 8PJ,6001565,-5.26579925,50.10488475,E04013063,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Helston AthleticZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 4Z11v11ZFootballZSouthern League
+Helston AthleticZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 4Z11v11ZFootballZWestern Football League
+Helston AthleticZDevelopment 1ZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Helston AthleticZHelston Athletic FlexiZNLS 5-6ZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship.co.uk West Cornwall Flexi League
+Helston AthleticZVeteransZNLS 5-6ZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+Helston AthleticZWalking FootballZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+146,Cornwall FA,West,Helston Athletic Women,85501,In Progress,2,1,1-4,Club,GRF,Child,78731.0,5292ea13-ff48-e611-8f84-005056bc2dbb,KELLAWAY PARK,Clodgey Lane,Helston,Cornwall,TR13 8PJ,6001565,-5.264799249999999,50.10488475,E04013063,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Helston Athletic WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZTier 6 Womens Regional Leagues OtherZ11v11ZFootballZSouth West Women's Football League
+"
+147,Cornwall FA,West,Helston Athletic Youth,78732,In Progress,2,15,11-20,Club,GRF,Child,78731.0,d49ad6e7-1480-e311-8b4d-001e4f28882a,KELLAWAY PARK,Clodgey Lane,Helston,Cornwall,TR13 8PJ,6001565,-5.26379925,50.10488475,E04013063,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Helston Athletic YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Helston Athletic YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Helston Athletic YouthZBluebirdsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZDolphinsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZDragonsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Helston Athletic YouthZFalconsZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZGirlsZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZHammersZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Helston Athletic YouthZHurricanesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Helston Athletic YouthZRaptorsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Helston Athletic YouthZSharksZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Helston Athletic YouthZSpitfiresZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZTitansZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Helston Athletic YouthZTyphoonsZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+148,Cornwall FA,West,Porthleven,76118,In Progress,1,4,1-4,Club,GRF,Parent,,d89474d5-1480-e311-8b4d-001e4f28882a,METHLEIGH PARC,Mill Lane,Helston,Cornwall,TR13 9LQ,6001020,-5.31659,50.0888,E04011511,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+PorthlevenZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+PorthlevenZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+PorthlevenZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship.co.uk West Cornwall Flexi League
+PorthlevenZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+PorthlevenZVeteransZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+149,Cornwall FA,West,Porthleven Youth AFC,89968,In Progress,1,5,5-10,Club,GRF,Parent,,caa59538-e6c4-ea11-b3cf-005056bc2dbb,METHLEIGH PARC,Mill Lane,Helston,Cornwall,TR13 9LQ,6001020,-5.315589999999999,50.0888,E04011511,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Porthleven Youth AFCZDynamosZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Porthleven Youth AFCZPanthersZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Porthleven Youth AFCZPiratesZGRFZU10ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Porthleven Youth AFCZPiskiesZGRFZU10ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Porthleven Youth AFCZSharksZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+150,Cornwall FA,West,Dropship FC Youth,102613,Accredited,1,6,5-10,Club,GRF,Child,87519.0,70906289-200f-ed11-bfce-005056bc75a7,HOLMANS SPORTS CLUB,32 PENDARVES ROAD,CAMBORNE,Cornwall,TR14 7QG,20000759,-5.30496375,50.2085337,E04011413,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Dropship FC YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Dropship FC YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Dropship FC YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Dropship FC YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dropship FC YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Dropship FC YouthZLittle ShipmatesZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+"
+151,Cornwall FA,West,Holman Sports Club,79058,Accredited,1,2,1-4,Club,GRF,Parent,,cb8c71db-1480-e311-8b4d-001e4f28882a,HOLMANS SPORTS CLUB,32 PENDARVES ROAD,CAMBORNE,Cornwall,TR14 7QG,20000759,-5.303963749999999,50.2085337,E04011413,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Holman Sports ClubZHolmans SCZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Holman Sports ClubZHolmans SC ReservesZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+152,Cornwall FA,West,Troon AFC,79995,In Progress,2,7,5-10,Club,GRF,Parent,,069574d5-1480-e311-8b4d-001e4f28882a,GROUTER PARK,Croft Common,CAMBORNE,Cornwall,TR14 9HT,6020912,-5.27252,50.19598,E04011413,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Troon AFCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Troon AFCZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Troon AFCZLadies WalkingZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ7v7ZWalking FootballZAge UK Cornwall Walking Football League
+Troon AFCZTroon AFC LadiesZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+Troon AFCZWalking 1stZGRFZOpenZAdultZMixedZNonDisabilityZNon-NLSZ5v5ZWalking FootballZAge UK Cornwall Walking Football League
+Troon AFCZWalking 2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+Troon AFCZWalking 3rdZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+153,Cornwall FA,West,Troon AFC Youth,79976,In Progress,2,16,11-20,Club,GRF,Child,79995.0,8fe670e1-1480-e311-8b4d-001e4f28882a,GROUTER PARK,Croft Common,CAMBORNE,Cornwall,TR14 9HT,6020912,-5.27152,50.19598,E04011413,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Troon AFC YouthZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Troon AFC YouthZCheetahsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Troon AFC YouthZCobrasZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Troon AFC YouthZDevelopmentZGRFZU6ZYouthZMixedZNonDisabilityZNon-NLSZDevelopmentZFootballZ
+Troon AFC YouthZEaglesZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Troon AFC YouthZFalconsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Troon AFC YouthZHarriersZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Troon AFC YouthZJackalsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Troon AFC YouthZPredatorsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Troon AFC YouthZSharksZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Troon AFC YouthZTigersZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Troon AFC YouthZTroon LionZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Troon AFC YouthZTroon PanthersZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Troon AFC YouthZVipers 2.0ZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Troon AFC YouthZWaspsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Troon AFC YouthZWolvesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+154,Cornwall FA,West,Redruth United,76750,In Progress,1,4,1-4,Club,GRF,Parent,,128d71db-1480-e311-8b4d-001e4f28882a,CLIJAH CROFT,Wheal Trefusis,REDRUTH,Cornwall,TR15 2NQ,6007005,-5.2187599,50.22343,E04011461,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Redruth UnitedZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Redruth UnitedZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Redruth UnitedZWomen 1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+Redruth UnitedZWomen 2ndZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+155,Cornwall FA,West,Redruth United Veterans,88639,In Progress,1,1,1-4,Club,GRF,Child,76750.0,2431bc6b-429e-e911-8a2f-005056bc004e,CLIJAH CROFT,Wheal Trefusis,REDRUTH,Cornwall,TR15 2NQ,6007005,-5.2177599,50.22343,E04011461,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Redruth United VeteransZ1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+156,Cornwall FA,West,Redruth United Youth,83697,In Progress,1,14,11-20,Club,GRF,Child,76750.0,79a35b5c-c89f-e311-916f-001e4f28882a,CLIJAH CROFT,Wheal Trefusis,REDRUTH,Cornwall,TR15 2NQ,6007005,-5.2167599000000004,50.22343,E04011461,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Redruth United YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Redruth United YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Redruth United YouthZBlacksZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Redruth United YouthZGirlsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Redruth United YouthZGirlsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Redruth United YouthZRedsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Redruth United YouthZRedsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+157,Cornwall FA,West,Cornwall Powerchair FC,72274,Non Accredited,0,1,1-4,Club,GRF,Parent,,5b31ca61-1c80-e311-8b4d-001e4f28882a,CARN BREA LEISURE CENTRE,"Station Road Pool",REDRUTH,Cornwall,TR15 3QS,1005736,-5.26712025,50.22411655,E04011418,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Cornwall Powerchair FCZ1stZGRFZOpenZAdultZMixedZWheelchairZNon-NLSZ4v4ZFootballZSouth West Powerchair Football League
+"
+158,Cornwall FA,West,Keltek Ability FC,109620,Accredited,1,5,5-10,Club,GRF,Parent,,18895a04-c733-ef11-8be2-005056bc6f4c,CORNWALL COLLEGE (CAMBORNE),"TREVENSON CAMPUS POOL",REDRUTH,Cornwall,TR15 3RD,1206520,-5.276083347058823,50.22790707058824,E04011418,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Keltek Ability FCZKeltek Ability ChampionshipZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Keltek Ability FCZKeltek Ability FC U8ZGRFZU8ZYouthZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Keltek Ability FCZKeltek Ability LeagueZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Keltek Ability FCZKeltek Ability U12ZGRFZU12ZYouthZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Keltek Ability FCZKeltek Ability U16ZGRFZU16ZYouthZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+"
+159,Cornwall FA,West,West Cornwall Football Club,81396,In Progress,1,1,1-4,Club,GRF,Parent,,94fa5340-1d80-e311-8b4d-001e4f28882a,CORNWALL COLLEGE (CAMBORNE),"TREVENSON CAMPUS POOL",REDRUTH,Cornwall,TR15 3RD,1206520,-5.275083347058823,50.22790707058824,E04011418,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+West Cornwall Football ClubZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+160,Cornwall FA,West,Illogan Rbl,79375,In Progress,1,2,1-4,Club,GRF,Parent,,ab176ecf-1480-e311-8b4d-001e4f28882a,OXLAND PARK,"MEADOWSIDE RICHARDS LANE PAYNTERS LANE",REDRUTH,Cornwall,TR16 4DQ,30003478,-5.26158,50.24203,E04011448,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Illogan RblZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+Illogan RblZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+161,Cornwall FA,West,Illogan Rbl Junior,79376,Accredited,1,15,11-20,Club,GRF,Parent,,6fe670e1-1480-e311-8b4d-001e4f28882a,OXLAND PARK,"MEADOWSIDE RICHARDS LANE PAYNTERS LANE",REDRUTH,Cornwall,TR16 4DQ,30003478,-5.26058,50.24203,E04011448,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Illogan Rbl JuniorZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZLionessesZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZLionsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZLionsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZRaidersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZTigersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZTigersZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZTigersZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZWarriorsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Illogan Rbl JuniorZWarriorsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+162,Cornwall FA,West,Speak Out United,105587,Accredited,1,5,5-10,Club,GRF,Parent,,ac566392-d014-ee11-81cc-005056bc5e93,ILLOGAN PARK SPORTS GROUND,PAYNTERS LANE END,REDRUTH,Cornwall,TR16 4RN,6007004,-5.26676,50.2435199,E04011448,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Speak Out UnitedZZGRFZU8ZYouthZMaleZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Speak Out UnitedZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Speak Out UnitedZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Speak Out UnitedZSpeak Out United FoxesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZ
+Speak Out UnitedZSunday 1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+"
+163,Cornwall FA,West,St Day,78511,In Progress,2,5,5-10,Club,GRF,Parent,,27e670e1-1480-e311-8b4d-001e4f28882a,VOGUE PARK,"VOGUE HILL ST. DAY",REDRUTH,Cornwall,TR16 5NQ,6006992,-5.18874,50.23853,E04013084,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St DayZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSouth West Peninsula Football League Ltd
+St DayZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+St DayZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St DayZ3rdZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St DayZVeterans 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+St DayZWalking FootballZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ7v7ZWalking FootballZAge UK Cornwall Walking Football League
+"
+164,Cornwall FA,West,St Day Youth,78512,In Progress,2,13,11-20,Club,GRF,Child,78511.0,189bd6e7-1480-e311-8b4d-001e4f28882a,VOGUE PARK,"VOGUE HILL ST. DAY",REDRUTH,Cornwall,TR16 5NQ,6006992,-5.18774,50.23853,E04013084,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Day YouthZBal MaidensZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Day YouthZCeltsZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Day YouthZChirksZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Day YouthZChoughsZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Day YouthZFalconsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Day YouthZOggiesZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Day YouthZPiratesZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Day YouthZSmeltersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Day YouthZSmugglersZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Day YouthZSt Day U11 (All Girls)ZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Day YouthZSteamersZGRFZU18ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Day YouthZUnder 7'sZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZ
+St Day YouthZVogue SaintsZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+165,Cornwall FA,West,St Piran Supervets,106420,In Progress,1,4,1-4,Club,GRF,Parent,,28104c00-ac3d-ee11-ab71-005056bc6f4c,VOGUE PARK,"VOGUE HILL ST. DAY",REDRUTH,Cornwall,TR16 5NQ,6006992,-5.18674,50.23853,E04013084,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Piran SupervetsZEastZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+St Piran SupervetsZMid-CornwallZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+St Piran SupervetsZNorthZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+St Piran SupervetsZWest-CornwallZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+166,Cornwall FA,West,Carharrack,75127,In Progress,1,1,1-4,Club,GRF,Parent,,229574d5-1480-e311-8b4d-001e4f28882a,THE HOWARD BEAUCHAMP RECREATION GROUND,"TING TANG COTTAGE TREVINCE WOODS CARHARRACK",REDRUTH,Cornwall,TR16 5SF,30003143,-5.18289,50.22596,E04013050,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+CarharrackZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+167,Cornwall FA,West,Lanner,72741,Accredited,1,2,1-4,Club,GRF,Parent,,d68c71db-1480-e311-8b4d-001e4f28882a,TONY ROWE MEMORIAL GROUND,"TRESAVEAN LANNER",REDRUTH,Cornwall,TR16 6GZ,6007097,-5.1909599,50.21215,E04011461,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+LannerZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+LannerZWomenZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+168,Cornwall FA,West,Elevate Pencoys YFC,105240,Accredited,1,6,5-10,Club,GRF,Parent,,5063d3fc-0106-ee11-bc4d-005056bc5e93,PENCOYS PRIMARY SCHOOL,FOUR LANES,REDRUTH,Cornwall,TR16 6RB,1035920,-5.2393794,50.2048969,E04011418,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Elevate Pencoys YFCZElevate CubsZGRFZU8ZYouthZFemaleZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Elevate Pencoys YFCZElevate FaithettesZGRFZU9ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Elevate Pencoys YFCZElevate LionessesZGRFZU10ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Elevate Pencoys YFCZElevate LionheartsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Elevate Pencoys YFCZElevate PanthersZGRFZU12ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Elevate Pencoys YFCZElevate TigressesZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+169,Cornwall FA,West,Penwith College,83299,Non Accredited,0,2,1-4,Education,College,Parent,,2f614f30-2180-e311-8b4d-001e4f28882a,TRURO AND PENWITH COLLEGE (PENWITH CAMPUS),ST. CLARE STREET,PENZANCE,Cornwall,TR18 2SA,1206531,-5.5442599,50.1257262,E04011505,
+170,Cornwall FA,West,Penwith Nomads,87230,In Progress,1,1,1-4,Club,GRF,Parent,,9c6c7c8b-b47a-e811-b2f6-005056bc2dbb,PENZANCE ASTRO PARK,St. Clare,PENZANCE,Cornwall,TR18 3DX,1103636,-5.54595525,50.12270405,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Penwith NomadsZWalkingZGRFZOpenZAdultZMixedZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+171,Cornwall FA,West,Newlyn Non-Athletico,74656,In Progress,1,2,1-4,Club,GRF,Parent,,8be670e1-1480-e311-8b4d-001e4f28882a,PENZANCE LEISURE CENTRE,St. Clare,PENZANCE,Cornwall,TR18 3QW,1005748,-5.54177,50.121948,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Newlyn Non-AthleticoZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Newlyn Non-AthleticoZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+172,Cornwall FA,West,Penzance,75787,In Progress,2,2,1-4,Club,NLS 5-6,Parent,,d09474d5-1480-e311-8b4d-001e4f28882a,PENLEE PARK,PENZANCE AFC ALEXANDRA PLACE,PENZANCE,Cornwall,TR18 4NE,6000852,-5.5425484,50.1137693,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+PenzanceZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+PenzanceZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+173,Cornwall FA,West,Penzance AFC Youth,73017,In Progress,2,9,5-10,Club,GRF,Child,75787.0,63e670e1-1480-e311-8b4d-001e4f28882a,THE COOMBE,The Coombe,PENZANCE,Cornwall,TR18 5HS,6000384,-5.55116655,50.1069132,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Penzance AFC YouthZAliensZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Penzance AFC YouthZApollosZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Penzance AFC YouthZCosmoZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Penzance AFC YouthZJaguarsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Penzance AFC YouthZPanthersZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Penzance AFC YouthZPenzance U18ZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Penzance AFC YouthZTigersZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Penzance AFC YouthZTitansZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Penzance AFC YouthZVulcansZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+174,Cornwall FA,West,Penzance Disability,82210,In Progress,2,3,1-4,Club,GRF,Child,75787.0,84abd7a3-1e80-e311-8b4d-001e4f28882a,THE COOMBE,The Coombe,PENZANCE,Cornwall,TR18 5HS,6000384,-5.550166549999999,50.1069132,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Penzance DisabilityZChampionshipZGRFZOpenZAdultZMaleZPanDisabilityZNon-NLSZ6v6ZFootballZCornwall disAbility Football League
+Penzance DisabilityZLeagueZGRFZOpenZAdultZMaleZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Penzance DisabilityZPremierZGRFZOpenZAdultZMaleZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+"
+175,Cornwall FA,West,Mousehole Youth Club,86315,In Progress,2,8,5-10,Club,GRF,Child,74266.0,dae2db54-aa5d-e711-af5e-005056bc004e,ST BURYAN PLAYING FIELD,ST BURYAN PLAYING FIELD RECTORY ROAD,ST BURYAN,Cornwall,TR19 6BB,6006219,-5.6202083,50.07393035,E04013082,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Mousehole Youth ClubZDevilsZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZGlidersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZJetsZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZLightningsZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZMarvelsZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZMerlinsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZSpitfiresZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Mousehole Youth ClubZTornadosZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+176,Cornwall FA,West,St Buryan,78321,In Progress,1,1,1-4,Club,GRF,Parent,,048d71db-1480-e311-8b4d-001e4f28882a,ST BURYAN PLAYING FIELD,ST BURYAN PLAYING FIELD RECTORY ROAD,ST BURYAN,Cornwall,TR19 6BB,6006219,-5.6192082999999995,50.07393035,E04013082,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St BuryanZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+177,Cornwall FA,West,St Buryan Women,105599,Non Accredited,0,1,1-4,Club,GRF,Parent,,5f47fc7e-e514-ee11-81cc-005056bc5e93,ST BURYAN PLAYING FIELD,ST BURYAN PLAYING FIELD RECTORY ROAD,ST BURYAN,Cornwall,TR19 6BB,6006219,-5.6182083,50.07393035,E04013082,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Buryan WomenZSt Buryan Ladies FCZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+178,Cornwall FA,West,Mousehole FC,74266,In Progress,2,2,1-4,Club,NLS 2-4,Parent,,b89474d5-1480-e311-8b4d-001e4f28882a,TRUNGLE PARC,Trungle Parc,PENZANCE,Cornwall,TR19 6XB,6005129,-5.54818,50.08985,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Mousehole FCZ1stZNLS 2-4ZOpenZAdultZMaleZNonDisabilityZStep 4Z11v11ZFootballZSouthern League
+Mousehole FCZ2ndZNLS 2-4ZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+"
+179,Cornwall FA,West,Mousehole Women,75788,In Progress,2,1,1-4,Club,GRF,Child,74266.0,e9d16fb7-d881-e211-8094-005056a80055,TRUNGLE PARC,Trungle Parc,PENZANCE,Cornwall,TR19 6XB,6005129,-5.54718,50.08985,E04011505,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Mousehole WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+180,Cornwall FA,West,Halsetown Veterans,83962,Accredited,1,1,1-4,Club,GRF,Parent,,dd1c29df-9206-e411-9f66-005056bc2dbb,BORLASE PARK,PENDEEN,PENZANCE,Cornwall,TR19 7DX,6005774,-5.65941,50.1523899,E04011559,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Halsetown VeteransZ1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+181,Cornwall FA,West,Pendeen Rovers,75764,Accredited,1,2,1-4,Club,GRF,Parent,,c99474d5-1480-e311-8b4d-001e4f28882a,BORLASE PARK,PENDEEN,PENZANCE,Cornwall,TR19 7DX,6005774,-5.65841,50.1523899,E04011559,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Pendeen RoversZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Pendeen RoversZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+182,Cornwall FA,West,St Just,78592,In Progress,1,2,1-4,Club,GRF,Parent,,fc9474d5-1480-e311-8b4d-001e4f28882a,LAFROWDA PARK,Regent Terrace,PENZANCE,Cornwall,TR19 7LE,6006190,-5.68596,50.12259,E04011559,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St JustZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+St JustZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+183,Cornwall FA,West,St Just Youth,78593,In Progress,1,2,1-4,Club,GRF,Parent,,2b26ce77-1b80-e311-8b4d-001e4f28882a,LAFROWDA PARK,Regent Terrace,PENZANCE,Cornwall,TR19 7LE,6006190,-5.684959999999999,50.12259,E04011559,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Just YouthZMinersZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Just YouthZMinersZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+184,Cornwall FA,West,Probus,76326,In Progress,1,2,1-4,Club,GRF,Parent,,0e8d71db-1480-e311-8b4d-001e4f28882a,PROBUS PLAYING FIELD,Tregony Road,TRURO,Cornwall,TR2 4JR,20000676,-4.94994,50.29211,E04013078,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+ProbusZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+ProbusZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+185,Cornwall FA,West,Probus Youth,76327,In Progress,1,7,5-10,Club,GRF,Parent,,f49ad6e7-1480-e311-8b4d-001e4f28882a,PROBUS PLAYING FIELD,Tregony Road,TRURO,Cornwall,TR2 4JR,20000676,-4.9489399999999995,50.29211,E04013078,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Probus YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Probus YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Probus YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Probus YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Probus YouthZZGRFZU16ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Probus YouthZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Probus YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+186,Cornwall FA,West,Grampound,78172,In Progress,1,1,1-4,Club,GRF,Parent,,b68c71db-1480-e311-8b4d-001e4f28882a,GRAMPOUND RECREATION GROUND,Fore Street,TRURO,Cornwall,TR2 4SB,6000863,-4.9017169916666665,50.29850616666667,E04013059,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+GrampoundZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+187,Cornwall FA,West,Grampound Veterans,78173,In Progress,1,1,1-4,Club,GRF,Child,78172.0,ad952687-1c80-e311-8b4d-001e4f28882a,GRAMPOUND RECREATION GROUND,Fore Street,TRURO,Cornwall,TR2 4SB,6000863,-4.900716991666666,50.29850616666667,E04013059,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Grampound VeteransZGrampound Veterans 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+188,Cornwall FA,West,Grampound Youth FC,93572,In Progress,1,1,1-4,Club,GRF,Child,78172.0,951fd4b5-1c80-e311-8b4d-001e4f28882a,GRAMPOUND RECREATION GROUND,Fore Street,TRURO,Cornwall,TR2 4SB,6000863,-4.899716991666667,50.29850616666667,E04013059,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Grampound Youth FCZBridgersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+189,Cornwall FA,West,Gerrans & St Mawes United,77917,In Progress,1,2,1-4,Club,GRF,Parent,,36824a5a-4c84-e311-8b4d-001e4f28882a,HALWARTHA PARK,"ROSELAND ST. MAWES",TRURO,Cornwall,TR2 5AA,30004655,-5.01676,50.16718,E04011560,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Gerrans & St Mawes UnitedZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Gerrans & St Mawes UnitedZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+190,Cornwall FA,West,Tregony FC,81740,In Progress,1,1,1-4,Club,GRF,Parent,,718336c1-1d80-e311-8b4d-001e4f28882a,TREGONY SPORTS CENTRE,TREGONY SPORTS CLUB BACK LANE,TREGONY,Cornwall,TR2 5RP,6002713,-4.90924215,50.2709612,E04013096,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Tregony FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+191,Cornwall FA,West,Tregony Sunday,86197,Non Accredited,0,1,1-4,Club,GRF,Parent,,8168e180-d451-e711-af5e-005056bc004e,TREGONY SPORTS CENTRE,TREGONY SPORTS CLUB BACK LANE,TREGONY,Cornwall,TR2 5RP,6002713,-4.9082421499999995,50.2709612,E04013096,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Tregony SundayZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+"
+192,Cornwall FA,West,Roseland,87645,In Progress,1,1,1-4,Club,GRF,Parent,,8a5b4576-8ec8-e811-be5e-005056bc2dbb,THE ROSELAND COMMUNITY COLLEGE,Tregony,TRURO,Cornwall,TR2 5SE,1206126,-4.906305,50.2713925,E04013096,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+RoselandZWalkingZGRFZOpenZAdultZMixedZNonDisabilityZNon-NLSZ6v6ZWalking FootballZAge UK Cornwall Walking Football League
+"
+193,Cornwall FA,West,Ludgvan,73329,Accredited,1,1,1-4,Club,GRF,Parent,,af9474d5-1480-e311-8b4d-001e4f28882a,LUDGVAN JUBILEE HALL,"Fairfield Ludgvan",PENZANCE,Cornwall,TR20 8ES,1206811,-5.48554,50.1458,E04013067,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+LudgvanZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+194,Cornwall FA,West,Ludgvan Lions Junior,73330,Accredited,1,7,5-10,Club,GRF,Parent,,359bd6e7-1480-e311-8b4d-001e4f28882a,LUDGVAN LIONS JFC,"LUDGVAN LEAZE LUDGVAN",PENZANCE,Cornwall,TR20 8ES,30010252,-5.48454,50.1458,E04013067,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Ludgvan Lions JuniorZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Ludgvan Lions JuniorZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Ludgvan Lions JuniorZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Ludgvan Lions JuniorZGreensZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Ludgvan Lions JuniorZPredatorsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Ludgvan Lions JuniorZTigersZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Ludgvan Lions JuniorZYellowsZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+195,Cornwall FA,West,Ludgvan Women,99505,Accredited,1,1,1-4,Club,GRF,Parent,,8fd57701-9d2d-ec11-99d9-005056bc004e,LUDGVAN JUBILEE HALL,"Fairfield Ludgvan",PENZANCE,Cornwall,TR20 8ES,1206811,-5.4835400000000005,50.1458,E04013067,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Ludgvan WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+196,Cornwall FA,West,Dropship FC,87519,Accredited,1,6,5-10,Club,GRF,Parent,,09f85293-e59e-e811-babb-005056bc004e,ROSUDGEON AND KENNEGGY PLAYING FIELD,ROSUDGEON,PENZANCE,Cornwall,TR20 9QE,6000582,-5.4174412,50.1158913,E04013087,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Dropship FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Dropship FCZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Dropship FCZDisabilityZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Dropship FCZDisability ChampionshipZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+Dropship FCZFlexi AZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship.co.uk West Cornwall Flexi League
+Dropship FCZPiratesZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship.co.uk West Cornwall Flexi League
+"
+197,Cornwall FA,West,Dropship FC Women,102612,Accredited,1,1,1-4,Club,GRF,Child,87519.0,4aa5ba13-1f0f-ed11-bfce-005056bc75a7,ROSUDGEON AND KENNEGGY PLAYING FIELD,ROSUDGEON,PENZANCE,Cornwall,TR20 9QE,6000582,-5.4164411999999995,50.1158913,E04013087,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Dropship FC WomenZ1stZGRFZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+198,Cornwall FA,West,Hayle,78646,In Progress,2,3,1-4,Club,GRF,Parent,,c78c71db-1480-e311-8b4d-001e4f28882a,TREVASSACK PARK (HAYLE AFC),HAYLE AFC VIADUCT HILL,HAYLE,Cornwall,TR27 5HT,1042541,-5.39937,50.19029,E04013062,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+HayleZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+HayleZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+HayleZHayle FC FlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship.co.uk West Cornwall Flexi League
+"
+199,Cornwall FA,West,Hayle Youth,78647,In Progress,2,12,11-20,Club,GRF,Child,78646.0,2e9bd6e7-1480-e311-8b4d-001e4f28882a,TREVASSACK PARK (HAYLE AFC),HAYLE AFC VIADUCT HILL,HAYLE,Cornwall,TR27 5HT,1042541,-5.39837,50.19029,E04013062,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Hayle YouthZZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Hayle YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Hayle YouthZHarriersZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Hayle YouthZHawksZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Hayle YouthZHornetsZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Hayle YouthZHotshotsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Hayle YouthZHurricanesZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Hayle YouthZHurricanesZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Hayle YouthZLionessesZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Hayle YouthZPredatorsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Hayle YouthZStormZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Hayle YouthZWolfpackZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+200,Cornwall FA,West,Stargazy FC,104399,Non Accredited,0,1,1-4,Club,GRF,Parent,,c97120df-0aae-ed11-aef2-005056bc004e,TREVASSACK PARK (HAYLE AFC),HAYLE AFC VIADUCT HILL,HAYLE,Cornwall,TR27 5HT,1042541,-5.3973700000000004,50.19029,E04013062,
+201,Cornwall FA,West,St Ives Town FC,78532,In Progress,1,3,1-4,Club,GRF,Parent,,f99474d5-1480-e311-8b4d-001e4f28882a,LELANT SALTINGS (ST IVES TOWN FC),"SALTINGS REACH LELANT",St. Ives,Cornwall,TR27 6GH,6003279,-5.44297,50.17714,E04011556,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Ives Town FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+St Ives Town FCZSt Ives town spitfiresZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Ives Town FCZSt Ives town stingraysZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+202,Cornwall FA,West,St Ives Town Youth,78533,Accredited,1,2,1-4,Club,GRF,Parent,,1a9bd6e7-1480-e311-8b4d-001e4f28882a,LELANT SALTINGS (ST IVES TOWN FC),"SALTINGS REACH LELANT",St. Ives,Cornwall,TR27 6GH,6003279,-5.4419699999999995,50.17714,E04011556,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Ives Town YouthZSpitfiresZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Ives Town YouthZSt Ives town stingraysZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+203,Cornwall FA,West,Perranwell,75793,In Progress,1,2,1-4,Club,GRF,Parent,,d49474d5-1480-e311-8b4d-001e4f28882a,TREGYE FIELDS,"TREGYE ROAD CARNON DOWNS",TRURO,Cornwall,TR3 6JH,30010018,-5.07838,50.22178,E04011434,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+PerranwellZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+PerranwellZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+204,Cornwall FA,West,Truro City U18,89724,Accredited,1,1,1-4,Club,GRF,Child,70418.0,fd23a3af-55b5-ea11-a768-005056bc75a7,TREGYE FIELDS,"TREGYE ROAD CARNON DOWNS",TRURO,Cornwall,TR3 6JH,30010018,-5.07738,50.22178,E04011434,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Truro City U18ZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+205,Cornwall FA,West,Stithians,79117,In Progress,1,1,1-4,Club,GRF,Parent,,86e670e1-1480-e311-8b4d-001e4f28882a,STITHIANS COMMUNITY PRIMARY SCHOOL,"CHURCH ROAD STITHIANS",TRURO,Cornwall,TR3 7DH,6013932,-5.1787206333333335,50.1904953,E04011588,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+StithiansZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+206,Cornwall FA,West,Perranwell Youth,93159,In Progress,1,1,1-4,Club,GRF,Child,75793.0,0c31ca61-1c80-e311-8b4d-001e4f28882a,KING GEORGE V PLAYING FIELD (PERRANWELL),"KING GEORGE V PLAYING FIELD PERRANWELL STATION",TRURO,Cornwall,TR3 7LA,6001042,-5.1230894,50.2092519,E04013073,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Perranwell YouthZPerranwell FCZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+207,Cornwall FA,West,St Agnes Youth AFC,78297,Accredited,3,25,21-30,Club,GRF,Child,78296.0,fc9ad6e7-1480-e311-8b4d-001e4f28882a,CHIVERTON PARK,"CHIVERTON CROSS BLACKWATER",TRURO,Cornwall,TR4 8HS,30002754,-5.16505256,50.27885572,E04011451,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Agnes Youth AFCZZGRFZU8ZYouthZMixedZNonDisabilityZFriendlyZ5v5ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU15ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU14ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall U18 Girls Football League
+St Agnes Youth AFCZZGRFZU18ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZBolstersZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZDevelopmentZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls BolstersZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls DynamosZGRFZU9ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls Dynamos BolstersZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls Dynamos GiantsZGRFZU13ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls GiantsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls KestrelsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls SilverZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZGirls WhitesZGRFZU15ZYouthZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZMinersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZPiratesZGRFZU9ZYouthZMixedZNonDisabilityZFriendlyZ7v7ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZRangersZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZSharksZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZSurfersZGRFZU10ZYouthZMaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZSurfersZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Agnes Youth AFCZSurfersZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+208,Cornwall FA,West,Chacewater,75313,Accredited,1,1,1-4,Club,GRF,Parent,,259574d5-1480-e311-8b4d-001e4f28882a,CHACEWATER RECREATION GROUND,"Falmouth Road Chacewater",TRURO,Cornwall,TR4 8LR,6009219,-5.163696066666667,50.255888266666666,E04013051,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+ChacewaterZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+209,Cornwall FA,West,Frogpool & Cusgarne,77739,In Progress,1,2,1-4,Club,GRF,Parent,,35824a5a-4c84-e311-8b4d-001e4f28882a,RICHARD JORY PLAYING FIELD,RICHARD JORY PLAYING FIELD ROAD FROM SUNNY CORNER TO TRESAMBLE HILL,PULLA CROSS,Cornwall,TR4 8SA,6007553,-5.1489314,50.2168051,E04013060,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Frogpool & CusgarneZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Frogpool & CusgarneZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+210,Cornwall FA,West,Kernow Wanderers,84708,Accredited,1,1,1-4,Club,GRF,Parent,,2535e0ea-4326-e511-8f84-005056bc2dbb,RICHARD JORY PLAYING FIELD,RICHARD JORY PLAYING FIELD ROAD FROM SUNNY CORNER TO TRESAMBLE HILL,PULLA CROSS,Cornwall,TR4 8SA,6007553,-5.1479314,50.2168051,E04013060,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Kernow WanderersZVeterans 1stZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+"
+211,Cornwall FA,West,Truro City FC,70418,Accredited,1,2,1-4,Club,NLS 2-4,Parent,,0a9574d5-1480-e311-8b4d-001e4f28882a,TRURO SPORTS HUB,"A390 THREEMILESTONE",TRURO,Cornwall,TR4 9AN,30010567,-5.12095625,50.26857535,E04011451,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Truro City FCZ1stZNLS 2-4ZOpenZAdultZMaleZNonDisabilityZStep 2Z11v11ZFootballZThe National League
+Truro City FCZ2ndZNLS 2-4ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+"
+212,Cornwall FA,West,Trispen Tigers Youth,103653,Non Accredited,0,2,1-4,Club,GRF,Parent,,3fd1bd41-3d4a-ed11-a3ac-005056bc2dbb,ST ERME COMMUNITY CENTRE,TRISPEN,TRURO,Cornwall,TR4 9JQ,6001803,-5.03057,50.31856,E04011544,
+213,Cornwall FA,West,St Agnes,78296,Accredited,3,2,1-4,Club,GRF,Parent,,e59474d5-1480-e311-8b4d-001e4f28882a,ENYS PARK,Tregease Road,St. Agnes,Cornwall,TR5 0SL,6001467,-5.20665,50.31332,E04013079,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St AgnesZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+St AgnesZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+214,Cornwall FA,West,St Agnes AFC DisAbility,86504,Accredited,3,5,5-10,Club,GRF,Child,78296.0,e076c7d4-7877-e711-ae83-005056bc75a7,ENYS PARK,Tregease Road,St. Agnes,Cornwall,TR5 0SL,6001467,-5.2056499999999994,50.31332,E04013079,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Agnes AFC DisAbilityZChampionshipZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ7v7ZFootballZCornwall disAbility Football League
+St Agnes AFC DisAbilityZDevelopmentZGRFZU12ZYouthZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+St Agnes AFC DisAbilityZLeagueZGRFZOpenZAdultZMaleZPanDisabilityZNon-NLSZ7v7ZFootballZCornwall disAbility Football League
+St Agnes AFC DisAbilityZPremiershipZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ7v7ZFootballZCornwall disAbility Football League
+St Agnes AFC DisAbilityZRecreational DevelopmentZGRFZU16ZYouthZMaleZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+"
+215,Cornwall FA,West,St Agnes AFC Women,78299,Accredited,3,2,1-4,Club,Womens Tier Step 3-6,Child,78296.0,6c9bd6e7-1480-e311-8b4d-001e4f28882a,ENYS PARK,Tregease Road,St. Agnes,Cornwall,TR5 0SL,6001467,-5.20465,50.31332,E04013079,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Agnes AFC WomenZ1stZWomens Tier Step 3-6ZOpenZAdultZFemaleZNonDisabilityZTier 6 Womens Regional Leagues OtherZ11v11ZFootballZCornwall Women's Football League
+St Agnes AFC WomenZ2ndZWomens Tier Step 3-6ZOpenZAdultZFemaleZNonDisabilityZFriendlyZ11v11ZFootballZCornwall Women's Football League
+"
+216,Cornwall FA,West,St Agnes Veterans,78298,Accredited,3,2,1-4,Club,GRF,Child,78296.0,2b9bd6e7-1480-e311-8b4d-001e4f28882a,ENYS PARK,Tregease Road,St. Agnes,Cornwall,TR5 0SL,6001467,-5.20365,50.31332,E04013079,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Agnes VeteransZBolstersZGRFZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+St Agnes VeteransZWalkingZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ5v5ZWalking FootballZAge UK Cornwall Walking Football League
+"
+217,Cornwall FA,West,Goonhavern Athletic,78149,Accredited,1,2,1-4,Club,GRF,Parent,,a4176ecf-1480-e311-8b4d-001e4f28882a,REEN MANOR PARC (SITE 1),,PERRANPORTH,Cornwall,TR6 0AJ,6014653,-5.13325,50.34576,E04011508,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Goonhavern AthleticZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Goonhavern AthleticZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+218,Cornwall FA,West,Goonhavern Athletic Women,103859,Non Accredited,0,1,1-4,Club,GRF,Parent,,64eb3d84-0064-ed11-963f-005056bc004e,REEN MANOR PARC (SITE 1),,PERRANPORTH,Cornwall,TR6 0AJ,6014653,-5.13225,50.34576,E04011508,
+219,Cornwall FA,West,Goonhavern Youth,78150,Accredited,1,9,5-10,Club,GRF,Child,78149.0,75e670e1-1480-e311-8b4d-001e4f28882a,REEN MANOR PARC (SITE 1),,PERRANPORTH,Cornwall,TR6 0AJ,6014653,-5.1312500000000005,50.34576,E04011508,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Goonhavern YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Goonhavern YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Goonhavern YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Goonhavern YouthZAlbionZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Goonhavern YouthZArgyleZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Goonhavern YouthZCityZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Goonhavern YouthZHeartsZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Goonhavern YouthZMiamiZGRFZU12ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Goonhavern YouthZRangersZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+220,Cornwall FA,West,Perranporth,75791,Accredited,1,2,1-4,Club,GRF,Parent,,fa8c71db-1480-e311-8b4d-001e4f28882a,PONSMERE VALLEY,"BUDNIC ESTATE BUDNIC ESTATE",PERRANPORTH,Cornwall,TR6 0DB,30009412,-5.14316,50.34538,E04011508,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+PerranporthZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+PerranporthZReservesZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+221,Cornwall FA,West,Perranporth Youth,75792,Accredited,1,4,1-4,Club,GRF,Parent,,a7ac2ecb-15b9-e311-9d98-005056bc2dbb,PONSMERE VALLEY,"BUDNIC ESTATE BUDNIC ESTATE",PERRANPORTH,Cornwall,TR6 0DB,30009412,-5.14216,50.34538,E04011508,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Perranporth YouthZPredatorsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Perranporth YouthZSupersonicsZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Perranporth YouthZThunderZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Perranporth YouthZTimberwolvesZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+"
+222,Cornwall FA,West,Newquay AFC,74667,Accredited,2,5,5-10,Club,NLS 5-6,Parent,,c29474d5-1480-e311-8b4d-001e4f28882a,MOUNTWISE GROUNDS,Clevedon Road,Newquay,Cornwall,TR7 2BU,6000856,-5.08383135,50.41038195,E04013070,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Newquay AFCZ1stZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZStep 6Z11v11ZFootballZSouth West Peninsula Football League Ltd
+Newquay AFCZ2ndZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Newquay AFCZ3rdZNLS 5-6ZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Newquay AFCZVeteransZNLS 5-6ZVeteransZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Veterans League
+Newquay AFCZWomenZNLS 5-6ZOpenZAdultZFemaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Women's Football League
+"
+223,Cornwall FA,West,Brandon Trust FC,108206,Non Accredited,0,1,1-4,Club,GRF,Parent,,ce940c67-25c0-ee11-8e57-005056bc6f4c,NEWQUAY TRETHERRAS SCHOOL,TREVENSON ROAD,Newquay,Cornwall,TR7 3BH,1008020,-5.0584066,50.416489,E04013070,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Brandon Trust FCZLeagueZGRFZOpenZAdultZMixedZPanDisabilityZNon-NLSZ5v5ZFootballZCornwall disAbility Football League
+"
+224,Cornwall FA,West,Newquay AFC Youth,74668,Accredited,2,17,11-20,Club,GRF,Parent,,d351f0c7-1b80-e311-8b4d-001e4f28882a,NEWQUAY TRETHERRAS SCHOOL,TREVENSON ROAD,Newquay,Cornwall,TR7 3BH,1008020,-5.057406599999999,50.416489,E04013070,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Newquay AFC YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Newquay AFC YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Newquay AFC YouthZZGRFZU11ZYouthZMixedZNonDisabilityZFriendlyZ9v9ZFootballZCornwall Youth Football League
+Newquay AFC YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Newquay AFC YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Newquay AFC YouthZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Newquay AFC YouthZAll StarsZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Newquay AFC YouthZGalaxyZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Newquay AFC YouthZMini MintsZGRFZU12ZYouthZMixedZNonDisabilityZFriendlyZ9v9ZFootballZCornwall Youth Football League
+Newquay AFC YouthZMintsZGRFZU16ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Newquay AFC YouthZRaidersZGRFZU14ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Newquay AFC YouthZRaidersZGRFZU10ZYouthZFemaleZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Newquay AFC YouthZRebelsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Newquay AFC YouthZRocketsZGRFZU11ZYouthZFemaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Newquay AFC YouthZSpartakZGRFZU11ZYouthZMaleZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Newquay AFC YouthZTownZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Newquay AFC YouthZUnitedZGRFZU18ZYouthZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+"
+225,Cornwall FA,West,Godolphin Atlantic Legion,89894,Accredited,1,3,1-4,Club,GRF,Parent,,9ab37cd3-3ac0-ea11-a768-005056bc75a7,GODOLPHIN WAY PITCH,"HENVER ROAD GODOLPHIN WAY",Newquay,Cornwall,TR7 3BU,6005901,-5.05897,50.41941,E04013070,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Godolphin Atlantic LegionZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+Godolphin Atlantic LegionZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZDropship Sunday Football League
+Godolphin Atlantic LegionZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+"
+226,Cornwall FA,West,Godolphin Atlantic Youth,104826,Accredited,1,2,1-4,Club,GRF,Parent,,e78bbd47-1feb-ed11-85a7-005056bc5e93,GODOLPHIN WAY PITCH,"HENVER ROAD GODOLPHIN WAY",Newquay,Cornwall,TR7 3BU,6005901,-5.05797,50.41941,E04013070,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Godolphin Atlantic YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+Godolphin Atlantic YouthZGodolphin Atlantic Youth U8sZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+227,Cornwall FA,West,St Erme & Godolphin FC,82779,Accredited,1,1,1-4,Club,GRF,Parent,,1bd063da-1f80-e311-8b4d-001e4f28882a,GODOLPHIN WAY PITCH,"HENVER ROAD GODOLPHIN WAY",Newquay,Cornwall,TR7 3BU,6005901,-5.056970000000001,50.41941,E04013070,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Erme & Godolphin FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+228,Cornwall FA,West,St Mawgan,78672,In Progress,1,2,1-4,Club,GRF,Parent,,3ae670e1-1480-e311-8b4d-001e4f28882a,TREVARRIAN HOLIDAY PARK,,Newquay,Cornwall,TR8 4AQ,6005881,-5.0288234,50.4570572,E04011484,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St MawganZ1stZGRFZOpenZAdultZMaleZNonDisabilityZStep 7Z11v11ZFootballZSt Piran Football League
+St MawganZ2ndZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+229,Cornwall FA,West,St Mawgan Youth,83943,In Progress,1,7,5-10,Club,GRF,Child,78672.0,c4820daa-ff01-e411-9f66-005056bc2dbb,TREVARRIAN HOLIDAY PARK,,Newquay,Cornwall,TR8 4AQ,6005881,-5.0278234,50.4570572,E04011484,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Mawgan YouthZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Mawgan YouthZZGRFZU11ZYouthZMixedZNonDisabilityZFriendlyZ9v9ZFootballZCornwall Youth Football League
+St Mawgan YouthZZGRFZU12ZYouthZMixedZNonDisabilityZFriendlyZ9v9ZFootballZCornwall Youth Football League
+St Mawgan YouthZZGRFZU15ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Mawgan YouthZZGRFZU13ZYouthZMixedZNonDisabilityZNon-NLSZ11v11ZFootballZCornwall Youth Football League
+St Mawgan YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+St Mawgan YouthZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+230,Cornwall FA,West,East Wheal Rose Youth FC,100819,In Progress,1,7,5-10,Club,GRF,Parent,,281cfb77-f8bf-ec11-8f55-005056bc2dbb,MITCHELL PLAYING FIELD,"MITCHELL FOOTBALL FIELD ROAD FROM JUNCTION NORTH OF NANTILLIO MITCHELL",Newquay,Cornwall,TR8 5BZ,30010655,-5.0053,50.35113,E04013091,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+East Wheal Rose Youth FCZZGRFZU8ZYouthZMixedZNonDisabilityZFriendlyZ5v5ZFootballZCornwall Youth Football League
+East Wheal Rose Youth FCZZGRFZU11ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+East Wheal Rose Youth FCZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+East Wheal Rose Youth FCZZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+East Wheal Rose Youth FCZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZ
+East Wheal Rose Youth FCZRaidersZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+East Wheal Rose Youth FCZRaptorsZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+231,Cornwall FA,West,St Newlyn East AFC,78676,Accredited,1,1,1-4,Club,GRF,Parent,,4ae670e1-1480-e311-8b4d-001e4f28882a,ST NEWLYN EAST PLAYING FIELD,"CARGOLL ROAD ST. NEWLYN EAST",Newquay,Cornwall,TR8 5LB,6006023,-5.05841,50.3665499,E04013091,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Newlyn East AFCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+232,Cornwall FA,West,Indian Queens FC,101980,In Progress,1,2,1-4,Club,GRF,Parent,,ee0511cd-04f3-ec11-bfce-005056bc75a7,INDIAN QUEENS RECREATION GROUND,St. Francis Road,St. Columb,Cornwall,TR9 6QH,6000012,-4.93187,50.395,E04013085,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Indian Queens FCZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+Indian Queens FCZFlexiZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZEast Cornwall Flexi League
+"
+233,Cornwall FA,West,Indian Queens Juniors,97085,Accredited,1,6,5-10,Club,GRF,Parent,,bfe89ad9-8dd2-eb11-a0da-005056bc2dbb,INDIAN QUEENS RECREATION GROUND,St. Francis Road,St. Columb,Cornwall,TR9 6QH,6000012,-4.93087,50.395,E04013085,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Indian Queens JuniorsZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+Indian Queens JuniorsZZGRFZU14ZYouthZMixedZNonDisabilityZFriendlyZ11v11ZFootballZCornwall Youth Football League
+Indian Queens JuniorsZZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+Indian Queens JuniorsZZGRFZU8ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+Indian Queens JuniorsZBeesZGRFZU10ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZ
+Indian Queens JuniorsZIndian Queens Junior FC U7sZGRFZU7ZYouthZMixedZNonDisabilityZNon-NLSZ5v5ZFootballZCornwall Youth Football League
+"
+234,Cornwall FA,West,St Columb Major,78509,In Progress,1,1,1-4,Club,GRF,Parent,,26e670e1-1480-e311-8b4d-001e4f28882a,ST COLUMB (MAJOR) RECREATION GROUND,WEST STREET,St. Columb,Cornwall,TR9 6RX,6005899,-4.94141,50.43352,E04011538,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Columb MajorZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+235,Cornwall FA,West,St Columb Major Youth,85526,In Progress,1,2,1-4,Club,GRF,Child,78509.0,01327b16-f14c-e611-8f84-005056bc2dbb,ST COLUMB (MAJOR) RECREATION GROUND,WEST STREET,St. Columb,Cornwall,TR9 6RX,6005899,-4.94041,50.43352,E04011538,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+St Columb Major YouthZZGRFZU12ZYouthZMixedZNonDisabilityZNon-NLSZ9v9ZFootballZCornwall Youth Football League
+St Columb Major YouthZZGRFZU9ZYouthZMixedZNonDisabilityZNon-NLSZ7v7ZFootballZCornwall Youth Football League
+"
+236,Cornwall FA,West,Cornwall PFC,72274,Non-Accredited,0,1,1-4,Club,GRF,Parent,,notsuretobehonest,Carn Brea Leisure Centre,Station Rd,Pool,Cornwall,TR15 3QS,Not Sure,-5.268020,50.224125,E04011418,"Club NameZTeam NameZClub Sub TypeZTeam Age GroupZAdult or Youth Team?ZTeam GenderZTeam Disability TypeZTeam Football LevelZTeam Match CategoryZTeam TypeZLeague
+Week St MaryZ1stZGRFZOpenZAdultZMaleZNonDisabilityZNon-NLSZ11v11ZFootballZSt Piran Football League
+"
+

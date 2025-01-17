@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map with GeoJSON</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 100vh;
+        }
+        h2{
+            text-align: center;
+            margin-top: 20px;
+            color: #FFB81C;
+            font-size: 36px; 
+            padding-top: 13px;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #002A5C;
+            font-size: 36px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header{
+            background-color: #002A5C;
+            height:65px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>The Complete Cornwall Football Map</h2>
+    </div>
+   
+    <div id="controls">
+        <label for="star-filter">Filter by Star Level:</label>
+        <select id="star-filter" multiple>
+            <option value="-1">ALL</option>
+            <option value="0">Star Level 0</option>
+            <option value="1">Star Level 1</option>
+            <option value="2">Star Level 2</option>
+            <option value="3">Star Level 3</option>
+        </select>
+    </div>
+    <div id="age-group-controls">
+        <strong>Filter by Age Group:</strong><br />
+        <div id="age-group-checkboxes"></div>
+    </div>
+    <div id="gender-group-controls">
+        <strong>Filter by Gender:</strong><br />
+        <div id="gender-group-checkboxes"></div>
+    </div>
+    <div id="D-group-controls">
+        <strong>Filter by Disability:</strong><br />
+        <div id="D-group-checkboxes"></div>
+    </div>
+    
+    <style>
+        #controls, #age-group-controls, #gender-group-controls, #D-group-controls {
+            
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width: 250px;
+        }
+        #age-group-controls{
+            position: absolute;
+            top:305px;
+            left:5px;
+            
+        }
+        #gender-group-controls{
+            position: absolute;
+            top:695px;
+            left:5px;
+            
+        }
+        #D-group-controls{
+            position: absolute;
+            top:845px;
+            left:5px;
+            
+        }
+        .teamcontent{
+            margin-left:100px;
+        }
+
+        #controls label, #age-group-controls strong, #gender-group-controls strong, #D-group-controls strong {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+
+        .checkbox-group label {
+            font-size: 14px;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            accent-color: #007BFF; /* Blue accent color for checkboxes */
+            cursor: pointer;
+        }
+
+        #star-filter, #age-group-checkboxes, #gender-group-checkboxes, #D-group-checkboxes {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            color: #555;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        #star-filter:focus, #age-group-checkboxes:focus, #gender-group-checkboxes:focus, #D-group-checkboxes:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        #star-filter option {
+            padding: 10px;
+        }
+
+
+        #star-filter, #age-group-checkboxes, #gender-group-checkboxes, #D-group-checkboxes {
+            background-color: #fff;
+            border-color: #007BFF;
+        }
+
+        .checkbox-group {
+            max-height: 150px;
+            overflow-y: auto;
+        }
+    </style>
+    
+    
+    <style>
+        #controls {
+            position: absolute;
+            top: 85px;
+            left: 5px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width: 250px;
+        }
+
+        #controls label {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        #star-filter {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            
+            
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        #star-filter:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        #star-filter option {
+            padding: 10px;
+        }
+
+        #controls select {
+            background-color: #f9f9f9;
+        }
+
+        #controls select:focus {
+            background-color: #fff;
+            border-color: #007BFF;
+        }
+        
+        #map {
+            height: 925px;
+             /* Set the height to 400px */
+            width: 80%;   /* Optional: makes the map take up full width of its container */
+            left:20%;
+        }
+        .maincontent-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .maincontent1 {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            width: 300px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .maincontent1 strong {
+            font-weight: bold;
+        }
+
+        .team-name {
+            color: #FFB81C; /* Yellow color for team name */
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #team-details{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .maincontent {
+            position:relative;
+            
+        
+        
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            width: 80%;  /* Adjust width as needed */
+            margin-left: 10%;
+            text-align: center;
+        }
+
+        .maincontent div {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+            font-weight: bolder;
+        }
+
+        footer {
+            background-color: #002A5C; /* Cornwall FA Dark Blue */
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #FFB81C; /* Cornwall FA Yellow */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        } 
+        .maincontent .header3{
+            font-size: 25px;
+            font-weight: bold;
+            color:#FFB81C;
+        }
+
+    </style>
+    
+    <div id="map"></div>
+    <div>
+        <h1>Selected Club Information</h1>
+        <div class="maincontent">
+            <div class="header3" id="team-name"></div>
+            <div id="team-id"></div>
+            <div id="team-star-level"></div>
+            <div id="team-accreditation-status"></div>
+            <div id="team-county"></div>
+            <div id="team-region"></div>
+        </div>
+        
+        <h1>Filtered Team Details For Club</h1>
+        <div id="team-details"></div>
+    
+
+    </div>
+    
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>Powered by <a href="https://www.cornwallfa.com" target="_blank">Cornwall FA</a>    ---------------------------------    Created by <a href="https://www.linkedin.com/in/greg-eastman-2703892b2/" target="_blank">Greg Eastman</a></p>
+
+</footer>
+</html>
