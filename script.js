@@ -220,6 +220,7 @@ fetch('teams_df1 (2).csv')
                         } else {
                             starAmount = "No Star Rating";
                         }
+                        console.log(starAmount);
                         document.getElementById('team-star-level').textContent = `Star Level: ${starAmount}`;
                         document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo.accreditationStatus}`;
                         document.getElementById('team-county').textContent = `County FA: ${teamInfo.countyFA}`;
