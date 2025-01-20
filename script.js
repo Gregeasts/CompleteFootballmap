@@ -21,6 +21,7 @@ let amount;
 let percentofpop;
 let meanTeamsPer50;
 let stdDevTeamsPer50;
+let starAmount;
 // Load GeoJSON data
 fetch('geojsondata.geojson')
     .then(response => response.json())
@@ -209,7 +210,17 @@ fetch('teams_df1 (2).csv')
                         console.log(teamInfo)
                         document.getElementById('team-name').textContent = `Club Name: ${clubName || 'Unknown'}`;
                         document.getElementById('team-id').textContent = `Club PFF ID: ${clubPFFID}`;
-                        document.getElementById('team-star-level').textContent = `Star Level: ${starLevel}`;
+                        
+                        if (starLevel === 1) {
+                            starAmount = "★";
+                        } else if (starLevel === 2) {
+                            starAmount = "★★";
+                        } else if (starLevel === 3) {
+                            starAmount = "★★★";
+                        } else {
+                            starAmount = "No Star Rating";
+                        }
+                        document.getElementById('team-star-level').textContent = `Star Level: ${starAmount}`;
                         document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo.accreditationStatus}`;
                         document.getElementById('team-county').textContent = `County FA: ${teamInfo.countyFA}`;
                         document.getElementById('team-region').textContent = `Region: ${teamInfo.region}`;
