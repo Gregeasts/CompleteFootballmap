@@ -220,11 +220,11 @@ fetch('teams_df1 (2).csv')
                         } else {
                             starAmount = "No Star Rating";
                         }
-                        console.log(teamInfo.accreditationStatus, teamInfo.countyFA, teamInfo.region);
+                        console.log(teamInfo[0].accreditationStatus, teamInfo[0].countyFA, teamInfo[0].region);
                         document.getElementById('team-star-level').textContent = `Star Level: ${starAmount}`;
-                        document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo.accreditationStatus}`;
-                        document.getElementById('team-county').textContent = `County FA: ${teamInfo.countyFA}`;
-                        document.getElementById('team-region').textContent = `Region: ${teamInfo.region}`;
+                        document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo[0].accreditationStatus}`;
+                        document.getElementById('team-county').textContent = `County FA: ${teamInfo[0].countyFA}`;
+                        document.getElementById('team-region').textContent = `Region: ${teamInfo[0].region}`;
 
                         // Show detailed team data
                         let teamDetailsHTML = '';
