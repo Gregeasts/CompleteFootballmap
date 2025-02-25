@@ -39,7 +39,17 @@
     <div class="header">
         <h2>The Complete Cornwall Football Map</h2>
     </div>
-   
+    <h2>Upload CSV Files</h2>
+    
+    <label id='upload-teams1' for="teamsFile">Upload the teams csv file:</label>
+    <input type="file" id="upload-teams" accept=".csv">
+    <br><br>
+
+    <label id='upload-teams2' for="clubFile">Upload the clubs csv file:</label>
+    <input type="file" id="upload-clubs" accept=".csv">
+    <br><br>
+
+    
     <div id="controls">
         <label for="star-filter">Filter by Star Level:</label>
         <select id="star-filter" multiple>
@@ -247,6 +257,24 @@
             flex-wrap: wrap;
             gap: 20px;
             justify-content: center;
+        }
+        #upload-teams{
+            right:460px;
+            position: absolute;
+        }
+        #upload-teams1{
+            right:780px;
+            position: absolute;
+            font-weight: bolder;
+        }
+        #upload-teams2{
+            right:780px;
+            position: absolute;
+            font-weight: bolder;
+        }
+        #upload-clubs{
+            right:460px;
+            position: absolute;
         }
         
         .maincontent {

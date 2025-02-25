@@ -21,6 +21,42 @@ let amount;
 let percentofpop;
 let meanTeamsPer50;
 let stdDevTeamsPer50;
+let teamsCSVText = "";
+let clubCSVText = "";
+function handleTeamsUpload(event) {
+    const file = event.target.files[0];
+    if (file) {
+        readCSVFile(file, data => {
+            teamsCsvData = data;
+            if (clubsCsvData) processCSVData();
+        });
+    }
+}
+
+function handleClubsUpload(event) {
+    const file = event.target.files[0];
+    if (file) {
+        readCSVFile(file, data => {
+            clubsCsvData = data;
+            if (teamsCsvData) processCSVData();
+        });
+    }
+}
+
+function readCSVFile(file, callback) {
+    const reader = new FileReader();
+    reader.onload = function (event) {
+        const text = event.target.result;
+        const rows = text.split('\n').map(row => row.split(','));
+        callback(rows);
+    };
+    reader.readAsText(file);
+}
+
+
+document.getElementById('upload-teams').addEventListener('change', handleTeamsUpload);
+document.getElementById('upload-clubs').addEventListener('change', handleClubsUpload);
+
 // Load GeoJSON data
 fetch('geojsondata.geojson')
     .then(response => response.json())
@@ -60,207 +96,135 @@ const starColors = {
 // Create a new pane for markers
 map.createPane('markerPane');
 map.getPane('markerPane').style.zIndex = 650; // Higher than the default overlay pane (400)
+function processCSVData() {
+    if (!teamsCsvData || !clubsCsvData) {
+        console.error('Missing CSV data.');
+        return;
+    }
+
+    const teamHeaders = teamsCsvData[0];
+    const clubHeaders = clubsCsvData[0];
+
+    const latitudeIndex = teamHeaders.indexOf('Latitude');
+    const longitudeIndex = teamHeaders.indexOf('Longitude');
+    const starLevelIndex = teamHeaders.indexOf('Star Level');
+    const clubNameIndex = teamHeaders.indexOf('Club Name');
+    const IDIndex = teamHeaders.indexOf('Club PFF ID');
+    const par23cdIndex = teamHeaders.indexOf('PAR23CD');
+
+    const clubIDIndex = clubHeaders.indexOf('Club PFF ID');
+
+    if (latitudeIndex === -1 || longitudeIndex === -1 || starLevelIndex === -1 || IDIndex === -1) {
+        console.error('Missing required columns in CSV.');
+        return;
+    }
+
+    teamsCsvData.slice(1).forEach(teamRow => {
+        const latitude = parseFloat(teamRow[latitudeIndex]);
+        const longitude = parseFloat(teamRow[longitudeIndex]);
+        const starLevel = parseInt(teamRow[starLevelIndex], 10);
+        const clubName = teamRow[clubNameIndex];
+        const clubPFFID = teamRow[IDIndex];
+        const PAR23CD = teamRow[par23cdIndex];
+
+        if (isNaN(latitude) || isNaN(longitude) || isNaN(starLevel)) return;
+
+        const matchingClubRows = clubsCsvData.slice(1).filter(clubRow => clubRow[clubIDIndex] === clubPFFID);
+
+        const ageGroups = [];
+        const Genders = [];
+        const GendersAge = [];
+        const D = [];
+
+        matchingClubRows.forEach(matchedRow => {
+            ageGroups.push(matchedRow[7]);
+            Genders.push(matchedRow[9]);
+            D.push(matchedRow[10]);
+            GendersAge.push(matchedRow[7] + matchedRow[9] + matchedRow[10]);
+        });
+
+        allAgeGroups = new Set([...allAgeGroups, ...ageGroups]);
+        allGenderGroups = new Set([...allGenderGroups, ...Genders]);
+        allDGroups = new Set([...allDGroups, ...D]);
+        allGenderAgeGroups = new Set([...allGenderAgeGroups, ...GendersAge]);
+
+        const marker = L.circleMarker([latitude, longitude], {
+            pane: 'markerPane',
+            radius: 8,
+            fillColor: starColors[starLevel] || 'black',
+            color: 'black',
+            weight: 4,
+            fillOpacity: 0.8
+        }).bindPopup(`<strong>Club:</strong> ${clubName || 'Unknown'}<br>`);
+
+        marker.starLevel = starLevel;
+        marker.ageGroups = ageGroups;
+        marker.clubName = clubName;
+        marker.genders = Genders;
+        marker.gendersage = GendersAge;
+        marker.clubPFFID = clubPFFID;
+        marker.ddd = D;
+        marker.par23cd = PAR23CD;
+        allMarkers.push(marker);
+
+        marker.on('click', () => {
+            const teamInfo = matchingClubRows.map(matchedRow => ({
+                clubPFFID: matchedRow[clubIDIndex],
+                teamPFFID: matchedRow[5],
+                countyFA: matchedRow[0],
+                region: matchedRow[1],
+                teamName: matchedRow[3],
+                ageGroup: matchedRow[7],
+                gender: matchedRow[9],
+                accreditationStatus: matchedRow[16],
+                starLevel: matchedRow[17],
+                disability: matchedRow[10]
+            }));
+
+            document.getElementById('team-name').textContent = `Club Name: ${clubName || 'Unknown'}`;
+            document.getElementById('team-id').textContent = `Club PFF ID: ${clubPFFID}`;
+            document.getElementById('team-star-level').textContent = `Star Level: ${starLevel}`;
+            document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo[0].accreditationStatus}`;
+            document.getElementById('team-county').textContent = `County FA: ${teamInfo[0].countyFA}`;
+            document.getElementById('team-region').textContent = `Region: ${teamInfo[0].region}`;
+
+            let teamDetailsHTML = '';
+            teamInfo.forEach(team => {
+                if (
+                    (selectedStarLevels.length === 0 || selectedStarLevels.includes(starLevel) || selectedStarLevels === "-1") &&
+                    (selectedAgeGroups.length === 0 || selectedAgeGroups.includes(team.ageGroup) || selectedAgeGroups === "") &&
+                    (selectedGender.length === 0 || selectedGender.includes(team.gender) || selectedGender === "") &&
+                    (selectedD.length === 0 || selectedD.includes(team.disability) || selectedD === "")
+                ) {
+                    teamDetailsHTML += `
+                        <div class="maincontent-container">
+                            <div class="maincontent1">
+                                <div class="team-name">${team.teamName}</div>
+                                <strong>Team Age Group:</strong> ${team.ageGroup}<br>
+                                <strong>Team Gender:</strong> ${team.gender}<br>
+                                <strong>Team Disability:</strong> ${team.disability}<br>
+                                <strong>Accreditation Status:</strong> ${team.accreditationStatus}<br>
+                                <strong>Star Level:</strong> ${team.starLevel}<br>
+                            </div>
+                        </div>`;
+                }
+            });
+
+            document.getElementById('team-details').innerHTML = teamDetailsHTML;
+        });
+
+        marker.addTo(map);
+    });
 
 // Load and process the teams_df1 (2).csv file
-fetch('teams_df1 (2).csv')
-    .then(response => response.text())
-    .then(csvText => {
-        // Parse CSV text into rows
-        const rows = csvText.split('\n');
-        const headers = rows[0].split(','); // Extract headers
-        const dataRows = rows.slice(1); // Skip header row
 
-        // Find the indexes of relevant columns
-        const latitudeIndex = headers.indexOf('Latitude');
-        const longitudeIndex = headers.indexOf('Longitude');
-        const starLevelIndex = headers.indexOf('Star Level');
-        const clubNameIndex = headers.indexOf('Club Name');
-        const IDIndex = headers.indexOf('Club PFF ID');
-        const par23cdIndex = headers.indexOf('PAR23CD'); // Find the par23cd column index
+    createAgeGroupCheckboxes();
+    createGenderGroupCheckboxes();
+    createDGroupCheckboxes();
 
-        if (latitudeIndex === -1 || longitudeIndex === -1 || starLevelIndex === -1 || IDIndex === -1) {
-            console.error('Missing required columns in CSV.');
-            return;
-        }
+            
 
-        // Fetch the club_df.csv file (the second CSV containing detailed club data)
-        fetch('club_df.csv')
-            .then(response => response.text())
-            .then(clubCsvText => {
-                // Parse club_df.csv into rows
-                const clubRows = clubCsvText.split('\n');
-                const clubHeaders = clubRows[0].split(','); // Extract headers for club_df.csv
-                const clubDataRows = clubRows.slice(1); // Skip header row
-
-                // Find the index of the 'ID' column in club_df.csv
-                const clubIDIndex = clubHeaders.indexOf('Club PFF ID');
-
-                if (clubIDIndex === -1) {
-                    console.error('Missing "ID" column in club_df.csv.');
-                    return;
-                }
-
-                // Process each row in teams_df1 (2).csv
-                dataRows.forEach(row => {
-                    const columns = row.split(',');
-
-                    // Extract relevant data from the teams_df1 (2).csv row
-                    const latitude = parseFloat(columns[latitudeIndex]);
-                    const longitude = parseFloat(columns[longitudeIndex]);
-                    const starLevel = parseInt(columns[starLevelIndex], 10);
-                    const clubName = columns[clubNameIndex];
-                    const PAR23CD = columns[par23cdIndex];
-                    
-
-                    if (par23cdIndex === -1) {
-                        console.error('Missing "par23cd" column in CSV.');
-                        return;
-                    }
-
-                    
-                    
-
-                    // Skip invalid rows
-                    if (isNaN(latitude) || isNaN(longitude) || isNaN(starLevel)) return;
-
-                    // Now, let's use the Club PFF ID to find the corresponding data in club_df.csv
-                    const clubPFFID = columns[IDIndex];
-
-                    // Find matching rows in club_df.csv based on the Club PFF ID
-                    const matchingClubRows = clubDataRows.filter(clubRow => {
-                        const clubColumns = clubRow.split(',');
-                        return clubColumns[clubIDIndex] === clubPFFID;
-                    });
-                    const ageGroups = [];
-                    const Genders = [];
-                    const GendersAge=[];
-                    const D=[];
-
-
-
-                    // Log the matched club data for each row in teams_df1 (2).csv
-                    matchingClubRows.forEach(matchedRow => {
-                        const matchedColumns = matchedRow.split(',');
-                        ageGroups.push(matchedColumns[7]);
-                        Genders.push(matchedColumns[9]);
-                        D.push(matchedColumns[10]);
-                        GendersAge.push(matchedColumns[7]+matchedColumns[9]+matchedColumns[10])
-
-                        // Log relevant columns from the matched row in club_df.csv
-                    
-                    });
-                    
-                    allAgeGroups = new Set([...allAgeGroups, ...ageGroups]);
-                    allGenderGroups = new Set([...allGenderGroups, ...Genders]);
-                    allDGroups = new Set([...allDGroups, ...D]);
-                    
-                    allGenderAgeGroups = new Set([...allGenderAgeGroups, ...GendersAge]);
-                    
-                    
-
-                    // Add marker to the map
-                    const marker = L.circleMarker([latitude, longitude], {
-                        pane: 'markerPane',
-                        radius: 8,
-                        
-                        fillColor: starColors[starLevel] || 'black',
-                        color: 'black',          // Set the border color to black
-                        weight: 4,  
-                        fillOpacity: 0.8
-                    }).bindPopup(
-                        `<strong>Club:</strong> ${clubName || 'Unknown'}<br>` 
-                        
-                    );
-
-                    // Add to global markers array
-                    marker.starLevel = starLevel;
-                    marker.ageGroups = ageGroups;
-                    marker.clubName = clubName;
-                    marker.genders = Genders;
-                    marker.gendersage = GendersAge;
-                    marker.clubPFFID = clubPFFID;
-                    marker.ddd=D;
-                    marker.par23cd = PAR23CD;
-                    allMarkers.push(marker);
-                    marker.on('click', () => {
-                        // Update the team information in the HTML
-                        const teamInfo = matchingClubRows.map(matchedRow => {
-                            const matchedColumns = matchedRow.split(',');
-
-                            // Extract club and team info
-                            const teamDetails = {
-                                clubPFFID: matchedColumns[clubIDIndex],
-                                teamPFFID: matchedColumns[5],
-                                countyFA: matchedColumns[0],  // Example: assuming County FA is at column 0
-                                region: matchedColumns[1],     // Example: assuming Region is at column 1
-                                teamName: matchedColumns[3],   // Team Name
-                                ageGroup: matchedColumns[7],   // Team Age Group
-                                gender: matchedColumns[9],     // Team Gender
-                                accreditationStatus: matchedColumns[16], // Accreditation Status
-                                starLevel: matchedColumns[17], // Star Level
-                                disability: matchedColumns[10],
-                                // Add other team info as needed...
-                            };
-
-                            return teamDetails;
-                        });
-
-                        // Show club information
-                        console.log(teamInfo)
-                        document.getElementById('team-name').textContent = `Club Name: ${clubName || 'Unknown'}`;
-                        document.getElementById('team-id').textContent = `Club PFF ID: ${clubPFFID}`;
-                        document.getElementById('team-star-level').textContent = `Star Level: ${starLevel}`;
-                        document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo.accreditationStatus}`;
-                        document.getElementById('team-county').textContent = `County FA: ${teamInfo.countyFA}`;
-                        document.getElementById('team-region').textContent = `Region: ${teamInfo.region}`;
-
-                        // Show detailed team data
-                        let teamDetailsHTML = '';
-                        teamInfo.forEach(team => {
-                            console.log(starLevel,selectedStarLevels,team.ageGroup,selectedAgeGroups,team.gender,selectedGender,selectedD ,team.disability)
-                            if (
-                                (selectedStarLevels.length === 0 || selectedStarLevels.includes(starLevel) || selectedStarLevels === "-1") &&
-                                (selectedAgeGroups.length === 0 || selectedAgeGroups.includes(team.ageGroup) || selectedAgeGroups === "") &&
-                                (selectedGender.length === 0 || selectedGender.includes(team.gender) || selectedGender === "") &&
-                                (selectedD.length === 0 || selectedD.includes(team.disability) || selectedD === "")
-                            ) {
-                                teamDetailsHTML += `
-                                    
-                                    <div class="maincontent-container">
-                                        <div class="maincontent1">
-                                            <div class="team-name">${team.teamName}</div>
-                                            <strong>Team Age Group:</strong> ${team.ageGroup}<br>
-                                            <strong>Team Gender:</strong> ${team.gender}<br>
-                                            <strong>Team Disability:</strong> ${team.disability}<br>
-
-                                            <strong>Accreditation Status:</strong> ${team.accreditationStatus}<br>
-                                            <strong>Star Level:</strong> ${team.starLevel}<br>
-                                            <!-- Add more fields here -->
-                                        </div>
-                                    </div>`;
-                            }
-                            
-                        });
-
-                        // Insert team details into HTML
-                        document.getElementById('team-details').innerHTML = teamDetailsHTML;
-                    });
-
-                    // Add to the map initially
-                    marker.addTo(map);
-                });
-
-                createAgeGroupCheckboxes();
-                createGenderGroupCheckboxes();
-                createDGroupCheckboxes();
-
-            })
-            .catch(error => console.error('Error loading club_df.csv:', error));
-
-    })
-    .catch(error => console.error('Error loading teams_df1 (2).csv:', error));
-
-
+}
 // Event listener for the filter dropdown (Star Level)
 document.getElementById('star-filter').addEventListener('change', () => {
     const selectedOptions = Array.from(document.getElementById('star-filter').selectedOptions);
