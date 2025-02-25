@@ -1,6 +1,7 @@
 // Initialize the map and set its view to your chosen geographical coordinates and zoom level
 const map = L.map('map').setView([50.2494, -4.9356], 10); // Adjust center and zoom
 
+
 // Add a tile layer (e.g., OpenStreetMap tiles)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -26,22 +27,215 @@ let clubCSVText = "";
 function handleTeamsUpload(event) {
     const file = event.target.files[0];
     if (file) {
-        readCSVFile(file, data => {
-            teamsCsvData = data;
+        readXLSXFile(file, async data => {
+            console.log(data)
+            teamsCsvData = await preprocess(data); // Preprocess before storing
+
             if (clubsCsvData) processCSVData();
         });
     }
 }
 
+// Function to handle XLSX file upload for clubs
 function handleClubsUpload(event) {
     const file = event.target.files[0];
     if (file) {
-        readCSVFile(file, data => {
+        readXLSXFile(file, data => {
             clubsCsvData = data;
             if (teamsCsvData) processCSVData();
         });
     }
 }
+
+function readXLSXFile(file, callback) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+        const data = e.target.result;
+        const workbook = XLSX.read(data, { type: 'binary' });
+
+        // Assume data is in the first sheet
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+        const sheetData = XLSX.utils.sheet_to_json(sheet, { header: 1 });  // 1 means first row is header
+
+        // Set the first row as column headers and remove the first row from the data
+        const headers = sheetData[2];
+        const rows = sheetData.slice(3);  // Get the remaining rows
+
+        // Prepare the data and pass it back to the callback
+        callback([headers, ...rows]);
+    };
+    reader.readAsBinaryString(file);
+}
+
+async function preprocess(csvData) {
+    if (!csvData || csvData.length === 0) return csvData;
+
+    const headers = csvData[0];
+    const postcodeIndex = headers.indexOf('Postcode');
+
+    if (postcodeIndex === -1) {
+        console.error("Missing 'Postcode' column in CSV.");
+        return csvData;
+    }
+
+    // Add new headers for Longitude, Latitude, and PAR23CD
+    headers.push('Longitude', 'Latitude', 'PAR23CD');
+
+    // Load the postcodes.csv file
+    const postcodeCSV = await fetch('postcodes.csv')
+        .then(response => response.text())
+        .then(text => {
+            const rows = text.split('\n').map(row => row.split(','));
+            const postcodeHeader = rows[0];
+            const postcodeData = rows.slice(1);
+            return { postcodeHeader, postcodeData };
+        })
+        .catch(error => {
+            console.error("Error loading postcodes.csv:", error);
+            return null;
+        });
+
+    if (!postcodeCSV) {
+        console.error("postcodes.csv is missing or invalid.");
+        return csvData;
+    }
+
+    const postcodeData = postcodeCSV.postcodeData;
+    const postcodeHeader = postcodeCSV.postcodeHeader;
+    const geojsonData = await fetch('geojsondata.geojson')
+        .then(response => response.json())
+        .catch(error => {
+            console.error("Error loading geojsondata.geojson:", error);
+            return null;
+        });
+
+    if (!geojsonData) {
+        console.error("geojsondata.geojson is missing or invalid.");
+        return csvData;
+    }
+
+    // Get indices of 'Postcode', 'Longitude', 'Latitude', and 'PAR23CD' in postcodes.csv
+    const postcodeColIndex = postcodeHeader.indexOf('Postcode');
+    const longitudeColIndex = postcodeHeader.indexOf('Longitude');
+    const latitudeColIndex = postcodeHeader.indexOf('Latitude');
+    const parishColIndex = postcodeHeader.indexOf('PAR23CD');
+
+    if (postcodeColIndex === -1 || longitudeColIndex === -1 || latitudeColIndex === -1 || parishColIndex === -1) {
+        console.error("Missing required columns in postcodes.csv.");
+        return csvData;
+    }
+
+    // Process data rows asynchronously
+    const processedData = await Promise.all(csvData.slice(1).map(async row => {
+        let newRow = [...row];
+        const postcode = row[postcodeIndex];
+
+        let longitude = null;
+        let latitude = null;
+        let PAR23CD = null;
+
+        // Look up postcode in postcodes.csv first
+        const postcodeRecord = postcodeData.find(postcodeRow => postcodeRow[postcodeColIndex] === postcode);
+
+        if (postcodeRecord) {
+            longitude = parseFloat(postcodeRecord[longitudeColIndex]);
+            latitude = parseFloat(postcodeRecord[latitudeColIndex]);
+            PAR23CD = postcodeRecord[parishColIndex];
+        }
+
+        // If postcode is not found in postcodes.csv, use geocoding API
+        if (!longitude && !latitude) {
+            if (postcode) {
+                const { longitude: lon, latitude: lat } = await geocodePostcode(postcode);
+                longitude = lon;
+                latitude = lat;
+            }
+        }
+
+        // Create a Turf.js point from the coordinates if geocoding was used
+        if (longitude !== null && latitude !== null) {
+            const teamPoint = turf.point([longitude, latitude]);
+
+            // If geocoding was used, find the matching parish for the point
+            if (!PAR23CD) {
+                geojsonData.features.forEach(feature => {
+                    if (turf.booleanPointInPolygon(teamPoint, feature)) {
+                        PAR23CD= feature.properties.PAR23CD;
+                    }
+                });
+            }
+        }
+
+        // Append Longitude, Latitude, and PAR23CD to the row
+        newRow.push(longitude, latitude, PAR23CD || 'Unknown');
+        return newRow;
+    }));
+
+    return [headers, ...processedData];
+}
+
+
+
+async function geocodePostcode(postcode, retries = 3, delay = 1000) {
+    postcode = postcode.trim();
+    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(postcode)}`;
+
+    for (let attempt = 1; attempt <= retries; attempt++) {
+        console.log(`Geocoding: '${postcode}' (Attempt ${attempt})`);
+
+        try {
+            const response = await fetch(url, {
+                method: 'GET',
+                headers: {
+                    'User-Agent': 'my-geocoding-app'
+                }
+            });
+
+            if (response.status === 429) {  // Rate limit exceeded
+                const retryAfter = response.headers.get('Retry-After');
+                if (retryAfter) {
+                    console.log(`Rate limit exceeded. Retrying after ${retryAfter} seconds.`);
+                    await sleep(retryAfter * 1000);  // Convert to milliseconds
+                } else {
+                    // If Retry-After header is not set, fallback to a default delay
+                    console.log('Rate limit exceeded, retrying after default delay.');
+                    await sleep(3000); // Fallback to 3 seconds
+                }
+                continue; // Retry after delay
+            }
+
+            const data = await response.json();
+            if (data.length > 0) {
+                const { lat, lon } = data[0];
+                console.log(`Found: ${postcode} -> (${lon}, ${lat})`);
+                return { longitude: parseFloat(lon), latitude: parseFloat(lat) };
+            } else {
+                console.log(`Postcode '${postcode}' not found.`);
+            }
+
+        } catch (error) {
+            console.error(`Error geocoding '${postcode}':`, error);
+        }
+
+        // Exponential backoff
+        if (attempt < retries) {
+            const backoffDelay = delay * Math.pow(2, attempt - 1); // Exponential backoff
+            console.log(`Retrying in ${backoffDelay}ms...`);
+            await sleep(backoffDelay);
+        }
+    }
+
+    // Return null if all retries failed
+    console.log(`All attempts failed for postcode '${postcode}'.`);
+    return { longitude: null, latitude: null };
+}
+
+async function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+
 
 function readCSVFile(file, callback) {
     const reader = new FileReader();
@@ -92,6 +286,24 @@ const starColors = {
     2: 'yellow',
     3: 'green'
 };
+function star_to_number(star_rating) {
+    if (star_rating === '★★★★') {
+        return 4;
+    }
+    if (star_rating === '★★★★★') {
+        return 5;
+    }
+    if (star_rating === '★★★') {
+        return 3;
+    }
+    if (star_rating === '★★') {
+        return 2;
+    }
+    if (star_rating === '★') {
+        return 1;
+    }
+    return 0;  // In case there are unexpected values
+}
 
 // Create a new pane for markers
 map.createPane('markerPane');
@@ -118,19 +330,26 @@ function processCSVData() {
         console.error('Missing required columns in CSV.');
         return;
     }
-
+    
     teamsCsvData.slice(1).forEach(teamRow => {
         const latitude = parseFloat(teamRow[latitudeIndex]);
         const longitude = parseFloat(teamRow[longitudeIndex]);
-        const starLevel = parseInt(teamRow[starLevelIndex], 10);
+        const starLevel = star_to_number(teamRow[starLevelIndex]);
+
+        
         const clubName = teamRow[clubNameIndex];
         const clubPFFID = teamRow[IDIndex];
         const PAR23CD = teamRow[par23cdIndex];
+        
 
-        if (isNaN(latitude) || isNaN(longitude) || isNaN(starLevel)) return;
-
+        if (isNaN(latitude) || isNaN(longitude) || isNaN(starLevel)) {
+            console.log(`Invalid values - Latitude: ${latitude}, Longitude: ${longitude}, Star Level: ${starLevel}`);
+            return;
+        }
+        
+        
         const matchingClubRows = clubsCsvData.slice(1).filter(clubRow => clubRow[clubIDIndex] === clubPFFID);
-
+        
         const ageGroups = [];
         const Genders = [];
         const GendersAge = [];
