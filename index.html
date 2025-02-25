@@ -43,13 +43,13 @@
     <div class="header">
         <h2>The Complete Cornwall Football Map</h2>
     </div>
-    <h2>Upload CSV Files</h2>
+    <h2>Upload XSLX Files</h2>
     
-    <label id='upload-teams1' for="teamsFile">Upload the club csv file:</label>
+    <label id='upload-teams1' for="teamsFile">Upload the club xslx file:</label>
     <input type="file" id="upload-teams" accept=".csv">
     <br><br>
 
-    <label id='upload-teams2' for="clubFile">Upload the teams csv file:</label>
+    <label id='upload-teams2' for="clubFile">Upload the teams xslx file:</label>
     <input type="file" id="upload-clubs" accept=".csv">
     <label id='upload-teams3'>These are large files and may require some time to process.</label>
 
@@ -87,7 +87,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             z-index: 1000;
-            width: 250px;
+            width: 20%;
         }
         #age-group-controls{
             position: absolute;
@@ -176,6 +176,8 @@
     
     
     <style>
+
+        
         #controls {
             position: absolute;
             top: 85px;
@@ -185,7 +187,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             z-index: 1000;
-            width: 250px;
+            width: 20%;
         }
 
         #controls label {
@@ -265,27 +267,27 @@
             justify-content: center;
         }
         #upload-teams{
-            right:460px;
+            left:60%;
             position: absolute;
         }
         #upload-teams1{
-            right:780px;
+            left:40%;
             position: absolute;
             font-weight: bolder;
         }
         #upload-teams2{
-            right:780px;
+            left:40%;
             position: absolute;
             font-weight: bolder;
         }
         #upload-teams3{
-            right:520px;
+            left:36%;
             position: absolute;
             
             top:160px;
         }
         #upload-clubs{
-            right:460px;
+            left:60%;
             position: absolute;
         }
         
@@ -332,6 +334,28 @@
             font-size: 25px;
             font-weight: bold;
             color:#FFB81C;
+        }
+        @media(max-width: 667px) {
+            h2{
+                text-align: center;
+                margin-top: 10px;
+                color: #FFB81C;
+                font-size: 24px; 
+                padding-top: 5px;
+            }
+            #upload-teams3{
+                font-size: 12px;
+                top:120px;
+                padding-bottom: 10px;
+                
+            }
+            #upload-teams1,#upload-teams2{
+                left:30%;
+                font-size: 14px;
+                padding-bottom: 10px;
+            }
+
+
         }
 
     </style>
