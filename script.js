@@ -181,12 +181,14 @@ function processCSVData() {
                 disability: matchedRow[10]
             }));
 
-            document.getElementById('team-name').textContent = `Club Name: ${clubName || 'Unknown'}`;
-            document.getElementById('team-id').textContent = `Club PFF ID: ${clubPFFID}`;
-            document.getElementById('team-star-level').textContent = `Star Level: ${starLevel}`;
-            document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo[0].accreditationStatus}`;
-            document.getElementById('team-county').textContent = `County FA: ${teamInfo[0].countyFA}`;
-            document.getElementById('team-region').textContent = `Region: ${teamInfo[0].region}`;
+                        // Show club information
+                        console.log(teamInfo)
+                        document.getElementById('team-name').textContent = `Club Name: ${clubName || 'Unknown'}`;
+                        document.getElementById('team-id').textContent = `Club PFF ID: ${clubPFFID}`;
+                        document.getElementById('team-star-level').textContent = `Star Level: ${starLevel}`;
+                        document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo.accreditationStatus}`;
+                        document.getElementById('team-county').textContent = `County FA: ${teamInfo.countyFA}`;
+                        document.getElementById('team-region').textContent = `Region: ${teamInfo.region}`;
 
             let teamDetailsHTML = '';
             teamInfo.forEach(team => {
