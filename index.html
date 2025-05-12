@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf"></script>
+    
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,29 +44,46 @@
     <div class="header">
         <h2>The Complete Cornwall Football Map</h2>
     </div>
-    <h2>Upload XSLX Files</h2>
     
-    <label id='upload-teams1' for="teamsFile">Upload the club xslx file:</label>
-    <input type="file" id="upload-teams" accept=".csv">
-    <br><br>
-
-    <label id='upload-teams2' for="clubFile">Upload the teams xslx file:</label>
-    <input type="file" id="upload-clubs" accept=".csv">
-    <label id='upload-teams3'>These are large files and may require some time to process.</label>
 
     <br><br>
-
-    
     <div id="controls">
-        <label for="star-filter">Filter by Star Level:</label>
-        <select id="star-filter" multiple>
-            <option value="-1">ALL</option>
-            <option value="0">No Star Level</option>
-            <option value="1">★</option>
-            <option value="2">★★</option>
-            <option value="3">★★★</option>
-        </select>
+        <label>Filter by Star Level:</label>
+        <div class="star-checkboxes">
+            <div class="checkbox-item">
+                <input type="checkbox" id="star-0" value="0">
+                <label for="star-0">No Star Level</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="star-1" value="1">
+                <label for="star-1">★</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="star-2" value="2">
+                <label for="star-2">★★</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="star-3" value="3">
+                <label for="star-3">★★★</label>
+            </div>
+        </div>
     </div>
+    <div id="controls1">
+        <label>Colour by:</label>
+        <div class="colour-checkboxes">
+            <div class="checkbox-item">
+                <input type="radio" id="age" name="colourBy" value="0">
+                <label for="age">Age Group</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="radio" id="stars" name="colourBy" value="1">
+                <label for="stars">Star Level</label>
+            </div>
+        </div>
+    </div>
+    
+    
+    
     <div id="age-group-controls">
         <strong>Filter by Age Group:</strong><br />
         <div id="age-group-checkboxes"></div>
@@ -80,7 +98,7 @@
     </div>
     
     <style>
-        #controls, #age-group-controls, #gender-group-controls, #D-group-controls {
+        #controls,#controls1, #age-group-controls, #gender-group-controls, #D-group-controls {
             
             background: #ffffff;
             padding: 20px;
@@ -106,6 +124,11 @@
             top:845px;
             left:5px;
             
+        }
+        #controls1{
+            position: absolute;
+            top:85px;
+            left:350px;
         }
         .teamcontent{
             margin-left:100px;
@@ -213,6 +236,20 @@
         #star-filter:focus {
             border-color: #007BFF;
             outline: none;
+        }
+        .star-checkboxes {
+            display: flex;
+            flex-direction: column; /* Stacks checkboxes vertically */
+            gap: 10px; /* Space between each checkbox and label pair */
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center; /* Aligns checkbox and label next to each other */
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin-right: 5px; /* Adds space between the checkbox and label */
         }
 
         #star-filter option {

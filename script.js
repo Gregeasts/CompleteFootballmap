@@ -19,64 +19,101 @@ let selectedGenderAge = []; // Store selected age groups
 let geojsonLayer;
 let combinations;
 let amount;
+let start=1;
+let uniqueMatches;
 let percentofpop;
 let meanTeamsPer50;
 let stdDevTeamsPer50;
 let teamsCSVText = "";
 let clubCSVText = "";
-function handleTeamsUpload(event) {
-    const file = event.target.files[0];
-    if (file) {
-        readXLSXFile(file, async data => {
-            console.log(data)
-            teamsCsvData = await preprocess(data); // Preprocess before storing
+let teamsCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=1553502218&single=true&output=csv';
+let clubsCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=1730165311&single=true&output=csv';
+let tccsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=2031143973&single=true&output=csv'
+let star_or_age = null;
+const radios = document.querySelectorAll('input[name="colourBy"]');
 
-            if (clubsCsvData) processCSVData();
+// Add event listeners to detect when a radio button is selected
+radios.forEach(radio => {
+        radio.addEventListener('change', () => {
+            // When a radio button is selected, store the value
+            star_or_age = radio.value;
+            start=0;
+            processCSVData();
+
+            // Log the selected value (optional, for debugging)
+            
         });
-    }
+});
+async function fetchAndParseCsv(url) {
+    const response = await fetch(url);
+    const csvText = await response.text();
+    return parseCsv(csvText);
 }
 
-// Function to handle XLSX file upload for clubs
-function handleClubsUpload(event) {
-    const file = event.target.files[0];
-    if (file) {
-        readXLSXFile(file, data => {
-            clubsCsvData = data;
-            if (teamsCsvData) processCSVData();
-        });
-    }
+function parseCsv(csvText) {
+    const lines = csvText.trim().split('\n');
+    return lines.map(line => line.split(',').map(cell => cell.trim()));
 }
 
-function readXLSXFile(file, callback) {
-    const reader = new FileReader();
-    reader.onload = function (e) {
-        const data = e.target.result;
-        const workbook = XLSX.read(data, { type: 'binary' });
+async function loadDataFromSheets() {
+    const [teamsRaw, clubsRaw, tccsRaw] = await Promise.all([
+        fetchAndParseCsv(teamsCsvUrl),
+        fetchAndParseCsv(clubsCsvUrl),
+        fetchAndParseCsv(tccsUrl),
+       
+    ]);
+    tccsCsvData = tccsRaw;
+    teamsCsvData = await preprocess(teamsRaw);
+    clubsCsvData = clubsRaw;
+    clubsCsvData=clubsCsvData.slice(11);
+    
+    processCSVData();
+}
 
-        // Assume data is in the first sheet
-        const sheet = workbook.Sheets[workbook.SheetNames[0]];
-        const sheetData = XLSX.utils.sheet_to_json(sheet, { header: 1 });  // 1 means first row is header
+function updateMarkerColor(marker) {
+    if (star_or_age === '1') {
+        // Star Level mode
+        marker.setStyle({
+            fillColor: starColors[marker.starLevel] || 'black',
+            color: 'black',
+        });
+    } else if (star_or_age === '0') {
+        const clubHeaders = clubsCsvData[0];
+        const clubIDIndex = clubHeaders.indexOf('Club PFF ID');
+        
 
-        // Set the first row as column headers and remove the first row from the data
-        const headers = sheetData[2];
-        const rows = sheetData.slice(3);  // Get the remaining rows
+        // Find matching rows for this marker's club
+        const matchingClubRows = clubsCsvData.slice(1).filter(
+            clubRow => clubRow[clubIDIndex] === marker.clubPFFID
+        );
 
-        // Prepare the data and pass it back to the callback
-        callback([headers, ...rows]);
-    };
-    reader.readAsBinaryString(file);
+        const ageGroupList = matchingClubRows.map(row => row[7]);
+        const matchedAgeGroups = ageGroupList.filter(age => selectedAgeGroups.includes(age));
+        const uniqueMatches = [...new Set(matchedAgeGroups)];
+        
+        let fillColor = 'white';
+        if (uniqueMatches.length === 1) {
+            fillColor = ageColors[uniqueMatches[0]] || 'yellow';
+        } else if (uniqueMatches.length > 1) {
+            
+            fillColor = ageColors['Multiple'];
+        }
+
+        marker.setStyle({
+            fillColor,
+            color: 'black',
+        });
+    }
 }
 
 async function preprocess(csvData) {
     if (!csvData || csvData.length === 0) return csvData;
-
+    csvData=csvData.slice(10);
+    
     const headers = csvData[0];
-    const postcodeIndex = headers.indexOf('Postcode');
 
-    if (postcodeIndex === -1) {
-        console.error("Missing 'Postcode' column in CSV.");
-        return csvData;
-    }
+
+    
 
     // Add new headers for Longitude, Latitude, and PAR23CD
     headers.push('Longitude', 'Latitude', 'PAR23CD');
@@ -120,15 +157,26 @@ async function preprocess(csvData) {
     const latitudeColIndex = postcodeHeader.indexOf('Latitude');
     const parishColIndex = postcodeHeader.indexOf('PAR23CD');
 
-    if (postcodeColIndex === -1 || longitudeColIndex === -1 || latitudeColIndex === -1 || parishColIndex === -1) {
+    if (postcodeColIndex === -1 ||longitudeColIndex === -1 || latitudeColIndex === -1 || parishColIndex === -1) {
         console.error("Missing required columns in postcodes.csv.");
         return csvData;
     }
 
     // Process data rows asynchronously
     const processedData = await Promise.all(csvData.slice(1).map(async row => {
+        
         let newRow = [...row];
-        const postcode = row[postcodeIndex];
+        const postcode = row[row.length - 2]; // Get second-to-last value
+        const name = row[2];
+        console.log(name,postcode,row,newRow);
+        const postcodesList = csvData.slice(1).filter(r => r[r.length - 2] === postcode);
+        
+        
+
+        // Find the index of the current postcode in the list (positions 1-4)
+        const positionInList = postcodesList.map(r => r[2]).indexOf(name) + 1; 
+        console.log(postcodesList,positionInList);
+    
 
         let longitude = null;
         let latitude = null;
@@ -145,6 +193,7 @@ async function preprocess(csvData) {
 
         // If postcode is not found in postcodes.csv, use geocoding API
         if (!longitude && !latitude) {
+            console.log(row);
             if (postcode) {
                 const { longitude: lon, latitude: lat } = await geocodePostcode(postcode);
                 longitude = lon;
@@ -167,7 +216,8 @@ async function preprocess(csvData) {
         }
 
         // Append Longitude, Latitude, and PAR23CD to the row
-        newRow.push(longitude, latitude, PAR23CD || 'Unknown');
+        newRow.push(longitude+positionInList*0.005, latitude, PAR23CD || 'Unknown');
+        console.log(postcode,newRow,positionInList);
         return newRow;
     }));
 
@@ -176,7 +226,7 @@ async function preprocess(csvData) {
 
 
 
-async function geocodePostcode(postcode, retries = 3, delay = 1000) {
+async function geocodePostcode(postcode, retries = 0, delay = 1000) {
     postcode = postcode.trim();
     const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(postcode)}`;
 
@@ -248,8 +298,7 @@ function readCSVFile(file, callback) {
 }
 
 
-document.getElementById('upload-teams').addEventListener('change', handleTeamsUpload);
-document.getElementById('upload-clubs').addEventListener('change', handleClubsUpload);
+
 
 // Load GeoJSON data
 fetch('geojsondata.geojson')
@@ -286,6 +335,24 @@ const starColors = {
     2: 'yellow',
     3: 'green'
 };
+const ageColors = {
+    'U6': 'grey',
+    'U7': 'red',
+    'U8': 'yellow',
+    'U9': 'green',
+    'U10': 'blue',
+    'U11': 'purple',
+    'U12': 'orange',
+    'U13': 'pink',
+    'U14': 'brown',
+    'U15': 'cyan',
+    'U16': 'magenta',
+    'Open': 'lime',
+    'U18': 'teal',
+    'Veterans':'black',
+    'Multiple':'white',
+};
+
 function star_to_number(star_rating) {
     if (star_rating === '★★★★') {
         return 4;
@@ -308,7 +375,61 @@ function star_to_number(star_rating) {
 // Create a new pane for markers
 map.createPane('markerPane');
 map.getPane('markerPane').style.zIndex = 650; // Higher than the default overlay pane (400)
+function createoverlay(){
+    const existingOverlay = document.getElementById('age-group-overlay');
+    if (existingOverlay) existingOverlay.remove();
+    
+        // Create a new overlay div
+    const overlay = document.createElement('div');
+    overlay.id = 'age-group-overlay';
+    overlay.style.position = 'absolute';
+    overlay.style.top = '65px';
+    overlay.style.left = '50px';
+    overlay.style.padding = '10px';
+    overlay.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+    overlay.style.border = '1px solid #ccc';
+    overlay.style.borderRadius = '8px';
+    overlay.style.zIndex = '1000'; // Ensure it's above the map
+    overlay.style.fontFamily = 'Arial, sans-serif';
+    overlay.style.fontSize = '14px';
+    overlay.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
+    
+        // Add heading
+    let contentHTML = `<strong>Age Group Key:</strong><br>`;
+    
+        // Build key for each selected age group
+    selectedAgeGroups.forEach(age => {
+        const color = ageColors[age] || 'white';
+        contentHTML += `
+            <div style="display: flex; align-items: center; margin-bottom: 4px;">
+                <span style="width: 16px; height: 16px; background-color: ${color}; border: 1px solid #000; margin-right: 8px; display: inline-block;"></span>
+                ${age}
+            </div>
+        `;
+    });
+    color='white';
+    contentHTML += `
+            <div style="display: flex; align-items: center; margin-bottom: 4px;">
+                <span style="width: 16px; height: 16px; background-color: ${color}; border: 1px solid #000; margin-right: 8px; display: inline-block;"></span>
+                ${"Multiple"}
+            </div>
+        `;
+    
+    overlay.innerHTML = contentHTML;
+    
+        // Append to map container
+    document.getElementById('map').appendChild(overlay);
+};
+
 function processCSVData() {
+    if (star_or_age === '0') {
+        createoverlay()
+        // Remove any existing overlay first to avoid duplicates
+    }
+    if (star_or_age !== '0') {
+        const overlay = document.getElementById('age-group-overlay');
+        if (overlay) overlay.remove();
+    }    
     if (!teamsCsvData || !clubsCsvData) {
         console.error('Missing CSV data.');
         return;
@@ -316,30 +437,34 @@ function processCSVData() {
 
     const teamHeaders = teamsCsvData[0];
     const clubHeaders = clubsCsvData[0];
+    
 
-    const latitudeIndex = teamHeaders.indexOf('Latitude');
-    const longitudeIndex = teamHeaders.indexOf('Longitude');
+    
     const starLevelIndex = teamHeaders.indexOf('Star Level');
     const clubNameIndex = teamHeaders.indexOf('Club Name');
     const IDIndex = teamHeaders.indexOf('Club PFF ID');
-    const par23cdIndex = teamHeaders.indexOf('PAR23CD');
+    ;
+    const AccredIndex = teamHeaders.indexOf('Accreditation Status');
+    const FaIndex = teamHeaders.indexOf('County FA');
+    const regionIndex = teamHeaders.indexOf('Region');
 
     const clubIDIndex = clubHeaders.indexOf('Club PFF ID');
 
-    if (latitudeIndex === -1 || longitudeIndex === -1 || starLevelIndex === -1 || IDIndex === -1) {
-        console.error('Missing required columns in CSV.');
-        return;
-    }
+    
     
     teamsCsvData.slice(1).forEach(teamRow => {
-        const latitude = parseFloat(teamRow[latitudeIndex]);
-        const longitude = parseFloat(teamRow[longitudeIndex]);
+        const latitude = parseFloat(teamRow[teamRow.length - 2]);
+        const longitude = parseFloat(teamRow[teamRow.length-3]);
         const starLevel = star_to_number(teamRow[starLevelIndex]);
 
         
         const clubName = teamRow[clubNameIndex];
         const clubPFFID = teamRow[IDIndex];
-        const PAR23CD = teamRow[par23cdIndex];
+        const countfa=teamRow[FaIndex]
+        const region=teamRow[regionIndex]
+        const Accred = teamRow[AccredIndex];
+        const PAR23CD = teamRow[teamRow.length-1];
+        
         
 
         if (isNaN(latitude) || isNaN(longitude) || isNaN(starLevel)) {
@@ -366,15 +491,28 @@ function processCSVData() {
         allGenderGroups = new Set([...allGenderGroups, ...Genders]);
         allDGroups = new Set([...allDGroups, ...D]);
         allGenderAgeGroups = new Set([...allGenderAgeGroups, ...GendersAge]);
+        const clubIDs = tccsCsvData.slice(1).map(row => row[0]);
+        let marker;
+        if (!clubIDs.includes(clubPFFID)) {
 
-        const marker = L.circleMarker([latitude, longitude], {
-            pane: 'markerPane',
-            radius: 8,
-            fillColor: starColors[starLevel] || 'black',
-            color: 'black',
-            weight: 4,
-            fillOpacity: 0.8
-        }).bindPopup(`<strong>Club:</strong> ${clubName || 'Unknown'}<br>`);
+            marker = L.circleMarker([latitude, longitude], {
+                pane: 'markerPane',
+                radius: 8,
+                fillColor: (star_or_age === '1' && starColors[starLevel]) ? starColors[starLevel] : 'black', // Use the correct color from starColors // Apply star color if selected, otherwise black
+                color: 'black',
+                weight: 4,
+                fillOpacity: 0.8
+            }).bindPopup(`<strong>Club:</strong> ${clubName || 'Unknown'}<br>`);
+        }else {
+            marker = L.circleMarker([latitude, longitude], {
+                pane: 'markerPane',
+                radius: 12,
+                fillColor: (star_or_age === '1' && starColors[starLevel]) ? starColors[starLevel] : 'black', // Use the correct color from starColors // Apply star color if selected, otherwise black
+                color: 'black',
+                weight: 4,
+                fillOpacity: 0.8
+            }).bindPopup(`<strong>Club:</strong> ${clubName || 'Unknown'}<br>`);
+        }
 
         marker.starLevel = starLevel;
         marker.ageGroups = ageGroups;
@@ -401,13 +539,13 @@ function processCSVData() {
             }));
 
                         // Show club information
-                        console.log(teamInfo)
+                        
                         document.getElementById('team-name').textContent = `Club Name: ${clubName || 'Unknown'}`;
                         document.getElementById('team-id').textContent = `Club PFF ID: ${clubPFFID}`;
                         document.getElementById('team-star-level').textContent = `Star Level: ${starLevel}`;
-                        document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${teamInfo.accreditationStatus}`;
-                        document.getElementById('team-county').textContent = `County FA: ${teamInfo.countyFA}`;
-                        document.getElementById('team-region').textContent = `Region: ${teamInfo.region}`;
+                        document.getElementById('team-accreditation-status').textContent = `Accreditation Status: ${Accred}`;
+                        document.getElementById('team-county').textContent = `County FA: ${countfa}`;
+                        document.getElementById('team-region').textContent = `Region: ${region}`;
 
             let teamDetailsHTML = '';
             teamInfo.forEach(team => {
@@ -433,31 +571,38 @@ function processCSVData() {
 
             document.getElementById('team-details').innerHTML = teamDetailsHTML;
         });
+        allMarkers.forEach(marker => updateMarkerColor(marker));
 
         marker.addTo(map);
     });
 
 // Load and process the teams_df1 (2).csv file
+    if (start ===1){
 
-    createAgeGroupCheckboxes();
-    createGenderGroupCheckboxes();
-    createDGroupCheckboxes();
+        createAgeGroupCheckboxes();
+        createGenderGroupCheckboxes();
+        createDGroupCheckboxes();
+    }
+    applyFilters();
+    
 
             
 
 }
 // Event listener for the filter dropdown (Star Level)
-document.getElementById('star-filter').addEventListener('change', () => {
-    const selectedOptions = Array.from(document.getElementById('star-filter').selectedOptions);
-    if (selectedOptions.length === 0 || selectedOptions[0].value === "-1") {
-        selectedStarLevels = [];  // "All" selected: no star level filter
-    } else {
-        selectedStarLevels = selectedOptions.map(option => parseInt(option.value, 10));
-    }
-    
-    // Update the map with the filtered markers
-    applyFilters();
+document.querySelectorAll('#controls input[type="checkbox"]').forEach(checkbox => {
+    checkbox.addEventListener('change', () => {
+        // Get the selected star levels from checked checkboxes
+        selectedStarLevels = Array.from(document.querySelectorAll('#controls input[type="checkbox"]:checked'))
+            .map(checkbox => parseInt(checkbox.value, 10));
+
+        // Call applyFilters with selected star levels
+        applyFilters();
+    });
 });
+
+
+loadDataFromSheets();
 function createAgeGroupCheckboxes() {
     const container = document.getElementById('age-group-checkboxes');
 
@@ -483,6 +628,10 @@ function createAgeGroupCheckboxes() {
             selectedAgeGroups = Array.from(document.querySelectorAll('#age-group-checkboxes input:checked')).map(
                 checkbox => checkbox.value
             );
+            if (star_or_age === 0){
+                createoverlay();
+            };
+            
 
             // Apply filters after selection
             applyFilters();
@@ -677,6 +826,7 @@ function applyFilters() {
     allMarkers.forEach(marker => map.removeLayer(marker));
     combinations=logSelectedFilters()
     
+    
 
     // Add markers that match both selected age groups and star levels
     allMarkers
@@ -691,11 +841,16 @@ function applyFilters() {
         )
         .forEach(marker => marker.addTo(map));
         updateGeoJSONLayer();
+    allMarkers.forEach(marker => updateMarkerColor(marker));
+    if (star_or_age === '0') {
+        createoverlay()
+        // Remove any existing overlay first to avoid duplicates
+    }
 }
 
 function countClubsByPar23cd() {
     const counts = {};
-
+    
     allMarkers
         .filter(marker => 
             (selectedStarLevels.length === 0 || selectedStarLevels.includes(marker.starLevel)) &&
@@ -837,9 +992,10 @@ function updateGeoJSONLayer() {
         return;
     }
     clubCount=countClubsByPar23cd();
+    
     percentofpop = findpercentofpop();
     ({ mean: meanTeamsPer50, stdDev: stdDevTeamsPer50 } = findmeanandstd(clubCount, percentofpop));
-    console.log(meanTeamsPer50);
+    
     geojsonLayer.eachLayer(layer => {
         if (layer.feature && layer.feature.properties) {
             
@@ -850,11 +1006,11 @@ function updateGeoJSONLayer() {
             // Perform filtering and styling
             
             const countForCurrentPar23cd = clubCount[par23cd] || 0; // Default to 0 if not found
-
+           
             teamsper50= (countForCurrentPar23cd/targetpop)*50;
             
             
-            console.log((layer.feature.properties.pop_7)/0.00625,percentofpop,countForCurrentPar23cd,targetpop,teamsper50)
+            
 
             layer.setStyle({
                 fillColor: getColorBasedOnTeamsPer50(teamsper50, meanTeamsPer50,stdDevTeamsPer50),
