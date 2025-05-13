@@ -765,6 +765,7 @@ function createPhaseCheckboxes() {
             ); 
             
             updateMap(); // Or your filtering function
+            applyFilters();
             
     
         });
