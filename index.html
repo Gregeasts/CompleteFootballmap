@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@turf/turf"></script>
-    
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,20 +68,25 @@
         </div>
     </div>
     <div id="controls1">
-        <label>Colour by:</label>
-        <div class="colour-checkboxes">
-            <div class="checkbox-item">
-                <input type="radio" id="age" name="colourBy" value="0">
-                <label for="age">Age Group</label>
-            </div>
-            <div class="checkbox-item">
-                <input type="radio" id="stars" name="colourBy" value="1">
-                <label for="stars">Star Level</label>
-            </div>
+    <label>Colour by:</label>
+    <div class="colour-checkboxes">
+        <div class="checkbox-item">
+            <input type="radio" id="age" name="colourBy" value="0">
+            <label for="age">Age Group</label>
+        </div>
+        <div class="checkbox-item">
+            <input type="radio" id="stars" name="colourBy" value="1">
+            <label for="stars">Star Level</label>
         </div>
     </div>
+</div>
     
-    
+    <div id="phase-filter-controls">
+        <strong>Filter by Phase:</strong>
+        <div id="phase-group-checkboxes">
+            <!-- This will be populated dynamically with the phases -->
+        </div>
+    </div>
     
     <div id="age-group-controls">
         <strong>Filter by Age Group:</strong><br />
@@ -98,7 +102,19 @@
     </div>
     
     <style>
-        #controls,#controls1, #age-group-controls, #gender-group-controls, #D-group-controls {
+        #phase-filter-controls {
+            position: absolute;
+            top: 1015px;
+            left: 5px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            width: 20%;
+        }
+
+        #controls,#controls1, #age-group-controls,#phase-filter-controls, #gender-group-controls, #D-group-controls {
             
             background: #ffffff;
             padding: 20px;
@@ -134,7 +150,7 @@
             margin-left:100px;
         }
 
-        #controls label, #age-group-controls strong, #gender-group-controls strong, #D-group-controls strong {
+        #controls label,#phase-filter-controls strong, #age-group-controls strong, #gender-group-controls strong, #D-group-controls strong {
             font-size: 16px;
             color: #333;
             font-weight: bold;

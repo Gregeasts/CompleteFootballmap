@@ -6,13 +6,17 @@ const map = L.map('map').setView([50.2494, -4.9356], 10); // Adjust center and z
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+map.createPane('svgMarkerPane');
+map.getPane('svgMarkerPane').style.zIndex = 540; 
 let allMarkers = [];
 let allAgeGroups = new Set(); // Store all unique age groups
 let allGenderGroups = new Set(); // Store all unique age groups
 let allDGroups = new Set(); 
+let allPhaseGroups = new Set(); 
 let allGenderAgeGroups = new Set(); // Store all unique age groups
 let selectedStarLevels = []; // Store selected star levels
-let selectedAgeGroups = []; // Store selected age groups
+let selectedAgeGroups = [];
+let selectedPhaseGroups = []; // Store selected age groups
 let selectedGender = []; // Store selected age groups
 let selectedD = []; // Store selected age groups
 let selectedGenderAge = []; // Store selected age groups
@@ -26,6 +30,7 @@ let meanTeamsPer50;
 let stdDevTeamsPer50;
 let teamsCSVText = "";
 let clubCSVText = "";
+let schoolsCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=2037823340&single=true&output=csv';
 let teamsCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=1553502218&single=true&output=csv';
 let clubsCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=1730165311&single=true&output=csv';
 let tccsUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ9eJi8_iUOy7u6JVxJWDMD6GWKk-pn4VXmC2RXHx6nI9zqaBwrNPQUFZmJQ02lD4IsbIvkIztg518/pub?gid=2031143973&single=true&output=csv'
@@ -56,33 +61,98 @@ function parseCsv(csvText) {
 }
 
 async function loadDataFromSheets() {
-    const [teamsRaw, clubsRaw, tccsRaw] = await Promise.all([
+    const [teamsRaw, clubsRaw, tccsRaw,schoolsRaw] = await Promise.all([
         fetchAndParseCsv(teamsCsvUrl),
         fetchAndParseCsv(clubsCsvUrl),
         fetchAndParseCsv(tccsUrl),
+        fetchAndParseCsv(schoolsCsvUrl),
        
     ]);
     tccsCsvData = tccsRaw;
+    schoolCsvData = schoolsRaw;
     teamsCsvData = await preprocess(teamsRaw);
     clubsCsvData = clubsRaw;
     clubsCsvData=clubsCsvData.slice(11);
+    schoolCsvData = [
+        ['Name', 'Phase', 'Latitude', 'Longitude'], // headers
+        ...schoolCsvData.slice(1).map(row => [
+            row[0],   // Name
+            row[9],   // Phase
+            row[13],  // Latitude
+            row[14]   // Longitude
+        ])
+
+    ];
+    const svgIcon = `
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <path fill="#231F20" d="M62.79,29.172l-28-28C34.009,0.391,32.985,0,31.962,0s-2.047,0.391-2.828,1.172l-28,28 c-1.562,1.566-1.484,4.016,0.078,5.578c1.566,1.57,3.855,1.801,5.422,0.234L8,33.617V60c0,2.211,1.789,4,4,4h16V48h8v16h16 c2.211,0,4-1.789,4-4V33.695l1.195,1.195c1.562,1.562,3.949,1.422,5.516-0.141C64.274,33.188,64.356,30.734,62.79,29.172z"></path>
+            </g>
+        </svg>
+    `;
+
+    schoolCsvData.slice(1).forEach(([name, phase, lat, lng]) => {
+        const latitude = parseFloat(lat);
+        const longitude = parseFloat(lng);
+
+        if (!isNaN(latitude) && !isNaN(longitude)) {
+            const customIcon = L.divIcon({
+                html: svgIcon,  // Set the SVG icon
+                className: 'custom-svg-icon', // Optional: You can add your own class for styling
+                iconSize: [16, 16], // Set the size of the icon (adjust to your needs)
+                iconAnchor: [8, 8] // Adjust anchor point to center the icon
+            });
+
+            const marker = L.marker([latitude, longitude], {
+                icon: customIcon,  // Set custom icon
+                pane: 'svgMarkerPane'
+            }).addTo(map)
+            .bindPopup(`<strong>${name}</strong><br>Type: ${phase}`);
+        }
+    });
+
+    
+    
     
     processCSVData();
+    
 }
 
 function updateMarkerColor(marker) {
     if (star_or_age === '1') {
-        // Star Level mode
-        marker.setStyle({
-            fillColor: starColors[marker.starLevel] || 'black',
-            color: 'black',
-        });
+        const starColor = starColors[marker.starLevel] || 'black';
+
+        if (marker instanceof L.CircleMarker) {
+            // Circle marker (non-star)
+            marker.setStyle({
+                fillColor: starColor,
+                color: 'black',
+            });
+        } else {
+            // SVG star marker (custom divIcon)
+            const svgStar = `
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="${starColor}" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 
+                             12 18.27 5.82 22 7 14.14l-5-4.87 
+                             6.91-1.01L12 2z" stroke="black" stroke-width="1"/>
+                </svg>
+            `;
+            const icon = L.divIcon({
+                html: svgStar,
+                className: 'custom-star-icon',
+                iconSize: [50, 50],
+                iconAnchor: [25, 25]
+            });
+            marker.setIcon(icon);
+        }
+
     } else if (star_or_age === '0') {
+        // Age group coloring
         const clubHeaders = clubsCsvData[0];
         const clubIDIndex = clubHeaders.indexOf('Club PFF ID');
-        
 
-        // Find matching rows for this marker's club
         const matchingClubRows = clubsCsvData.slice(1).filter(
             clubRow => clubRow[clubIDIndex] === marker.clubPFFID
         );
@@ -90,21 +160,38 @@ function updateMarkerColor(marker) {
         const ageGroupList = matchingClubRows.map(row => row[7]);
         const matchedAgeGroups = ageGroupList.filter(age => selectedAgeGroups.includes(age));
         const uniqueMatches = [...new Set(matchedAgeGroups)];
-        
+
         let fillColor = 'white';
         if (uniqueMatches.length === 1) {
             fillColor = ageColors[uniqueMatches[0]] || 'yellow';
         } else if (uniqueMatches.length > 1) {
-            
             fillColor = ageColors['Multiple'];
         }
 
-        marker.setStyle({
-            fillColor,
-            color: 'black',
-        });
+        if (marker instanceof L.CircleMarker) {
+            marker.setStyle({
+                fillColor,
+                color: 'black',
+            });
+        } else {
+            const svgStar = `
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="${fillColor}" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 
+                             12 18.27 5.82 22 7 14.14l-5-4.87 
+                             6.91-1.01L12 2z" stroke="black" stroke-width="1"/>
+                </svg>
+            `;
+            const icon = L.divIcon({
+                html: svgStar,
+                className: 'custom-star-icon',
+                iconSize: [50, 50],
+                iconAnchor: [25,25]
+            });
+            marker.setIcon(icon);
+        }
     }
 }
+
 
 async function preprocess(csvData) {
     if (!csvData || csvData.length === 0) return csvData;
@@ -168,14 +255,14 @@ async function preprocess(csvData) {
         let newRow = [...row];
         const postcode = row[row.length - 2]; // Get second-to-last value
         const name = row[2];
-        console.log(name,postcode,row,newRow);
+        
         const postcodesList = csvData.slice(1).filter(r => r[r.length - 2] === postcode);
         
         
 
         // Find the index of the current postcode in the list (positions 1-4)
         const positionInList = postcodesList.map(r => r[2]).indexOf(name) + 1; 
-        console.log(postcodesList,positionInList);
+        
     
 
         let longitude = null;
@@ -193,7 +280,7 @@ async function preprocess(csvData) {
 
         // If postcode is not found in postcodes.csv, use geocoding API
         if (!longitude && !latitude) {
-            console.log(row);
+           
             if (postcode) {
                 const { longitude: lon, latitude: lat } = await geocodePostcode(postcode);
                 longitude = lon;
@@ -217,7 +304,7 @@ async function preprocess(csvData) {
 
         // Append Longitude, Latitude, and PAR23CD to the row
         newRow.push(longitude+positionInList*0.005, latitude, PAR23CD || 'Unknown');
-        console.log(postcode,newRow,positionInList);
+        
         return newRow;
     }));
 
@@ -284,22 +371,6 @@ async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-
-
-
-function readCSVFile(file, callback) {
-    const reader = new FileReader();
-    reader.onload = function (event) {
-        const text = event.target.result;
-        const rows = text.split('\n').map(row => row.split(','));
-        callback(rows);
-    };
-    reader.readAsText(file);
-}
-
-
-
-
 // Load GeoJSON data
 fetch('geojsondata.geojson')
     .then(response => response.json())
@@ -349,7 +420,7 @@ const ageColors = {
     'U16': 'magenta',
     'Open': 'lime',
     'U18': 'teal',
-    'Veterans':'black',
+    'Veterans':'lightgreen',
     'Multiple':'white',
 };
 
@@ -480,6 +551,7 @@ function processCSVData() {
         const GendersAge = [];
         const D = [];
 
+
         matchingClubRows.forEach(matchedRow => {
             ageGroups.push(matchedRow[7]);
             Genders.push(matchedRow[9]);
@@ -504,13 +576,25 @@ function processCSVData() {
                 fillOpacity: 0.8
             }).bindPopup(`<strong>Club:</strong> ${clubName || 'Unknown'}<br>`);
         }else {
-            marker = L.circleMarker([latitude, longitude], {
-                pane: 'markerPane',
-                radius: 12,
-                fillColor: (star_or_age === '1' && starColors[starLevel]) ? starColors[starLevel] : 'black', // Use the correct color from starColors // Apply star color if selected, otherwise black
-                color: 'black',
-                weight: 4,
-                fillOpacity: 0.8
+            const starColor = (star_or_age === '1' && starColors[starLevel]) ? starColors[starLevel] : 'black';
+
+            const svgStar = `
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="${starColor}" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 
+                            5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z" stroke="black" stroke-width="1"/>
+                </svg>
+            `;
+
+            const icon = L.divIcon({
+                html: svgStar,
+                className: 'custom-star-icon',
+                iconSize: [50, 50],
+                iconAnchor: [25, 25]
+            });
+
+            marker = L.marker([latitude, longitude], {
+                icon,
+                pane: 'markerPane'
             }).bindPopup(`<strong>Club:</strong> ${clubName || 'Unknown'}<br>`);
         }
 
@@ -574,6 +658,7 @@ function processCSVData() {
         allMarkers.forEach(marker => updateMarkerColor(marker));
 
         marker.addTo(map);
+        
     });
 
 // Load and process the teams_df1 (2).csv file
@@ -582,6 +667,7 @@ function processCSVData() {
         createAgeGroupCheckboxes();
         createGenderGroupCheckboxes();
         createDGroupCheckboxes();
+        createPhaseCheckboxes();
     }
     applyFilters();
     
@@ -589,6 +675,54 @@ function processCSVData() {
             
 
 }
+
+
+function updateMap() {
+
+    
+    console.log(selectedPhaseGroups);
+    // Clear existing markers
+    map.eachLayer(layer => {
+        if (layer instanceof L.Marker) {
+            map.removeLayer(layer);
+        }
+    });
+
+    const svgIcon = `
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <path fill="#231F20" d="M62.79,29.172l-28-28C34.009,0.391,32.985,0,31.962,0s-2.047,0.391-2.828,1.172l-28,28 c-1.562,1.566-1.484,4.016,0.078,5.578c1.566,1.57,3.855,1.801,5.422,0.234L8,33.617V60c0,2.211,1.789,4,4,4h16V48h8v16h16 c2.211,0,4-1.789,4-4V33.695l1.195,1.195c1.562,1.562,3.949,1.422,5.516-0.141C64.274,33.188,64.356,30.734,62.79,29.172z"></path>
+            </g>
+        </svg>
+    `;
+    
+    schoolCsvData.slice(1).forEach(([name, phase, lat, lng]) => {
+        //console.log(selectedPhases,phase);
+        if (selectedPhaseGroups.includes(phase)) {
+
+            const latitude = parseFloat(lat);
+            const longitude = parseFloat(lng);
+
+            if (!isNaN(latitude) && !isNaN(longitude)) {
+                const customIcon = L.divIcon({
+                    html: svgIcon,  // Set the SVG icon
+                    className: 'custom-svg-icon', // Optional: You can add your own class for styling
+                    iconSize: [16, 16], // Set the size of the icon (adjust to your needs)
+                    iconAnchor: [8, 8] // Adjust anchor point to center the icon
+                });
+
+                const marker = L.marker([latitude, longitude], {
+                    icon: customIcon,  // Set custom icon
+                    pane: 'svgMarkerPane'
+                }).addTo(map)
+                .bindPopup(`<strong>${name}</strong><br>Type: ${phase}`);
+            }
+        };
+    });
+}
+
 // Event listener for the filter dropdown (Star Level)
 document.querySelectorAll('#controls input[type="checkbox"]').forEach(checkbox => {
     checkbox.addEventListener('change', () => {
@@ -603,6 +737,50 @@ document.querySelectorAll('#controls input[type="checkbox"]').forEach(checkbox =
 
 
 loadDataFromSheets();
+function createPhaseCheckboxes() {
+    
+    const container = document.getElementById('phase-group-checkboxes');
+
+    // Clear any existing checkboxes to avoid duplicates
+    container.innerHTML = '';
+    allPhaseGroups = [...new Set(schoolCsvData.slice(1).map(([name, phase]) => phase))];
+    if (allPhaseGroups.size === 0) {
+        container.textContent = 'No age groups found in data.';
+        return;
+    }
+    
+    // Loop through all unique age groups and create checkboxes
+    allPhaseGroups.forEach(phaseGroup => {
+        // Create checkbox input
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = `phase-group-${phaseGroup}`;
+        checkbox.value = phaseGroup;
+
+        // Add event listener to apply filters when checked/unchecked
+        checkbox.addEventListener('change', () => {
+            // Update the selected age groups list
+            selectedPhaseGroups = Array.from(document.querySelectorAll('#phase-group-checkboxes input:checked')).map(
+                checkbox => checkbox.value
+            ); 
+            
+            updateMap(); // Or your filtering function
+            
+    
+        });
+
+        // Create label for the checkbox
+        const label = document.createElement('label');
+        label.htmlFor = `phase-group-${phaseGroup}`;
+        label.textContent = phaseGroup;
+
+        // Append checkbox and label to the container
+        container.appendChild(checkbox);
+        container.appendChild(label);
+        container.appendChild(document.createElement('br'));
+    });
+}
+
 function createAgeGroupCheckboxes() {
     const container = document.getElementById('age-group-checkboxes');
 
