@@ -8,6 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kernow Football Map</title>
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         #map {
@@ -33,18 +34,150 @@
             background-color: #f0f0f0;
         }
         .header{
+            display: flex;
+            flex-direction: row;
             background-color: #002A5C;
             height:65px;
             text-align: center;
         }
+        .header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #002A5C;
+            height: 65px;
+            padding: 0 20px;
+        }
+
+        .question {
+            margin-left: auto;
+            background-color: #FFB81C;
+            border: none;
+            color: #002A5C;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 5px 12px;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+        }
+        .help-panel {
+            position: fixed;
+            top: 0;
+            right: -36%;
+            width: 30%;
+            height: 100%;
+            background-color: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+            padding: 20px;
+            z-index: 2000;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+        }
+
+        .help-panel.open {
+            right: 0;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            font-weight: bold;
+            color: #002A5C;
+            cursor: pointer;
+        }
+        .help-panel h3 {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #004080;
+        }
+
+        .help-panel p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .help-panel ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .help-panel ul li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .help-panel a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .help-panel a:hover {
+            text-decoration: underline;
+        }
+
+
     </style>
 </head>
 <body>
     <div class="header">
         <h2>The Complete Cornwall Football Map</h2>
+        <button class="question" onclick="toggleHelpPanel()">?</button>
+    </div>
+    <div id="help-panel" class="help-panel">
+        <button class="close-btn" onclick="toggleHelpPanel()">×</button>
+        <h2>ℹ️ About the Cornwall Football Map</h2>
+        <p>
+            The <strong>Cornwall Football Map</strong> showcases every football team across Cornwall — from grassroots to veterans — including:
+        </p>
+        <ul>
+            <li>All age groups (e.g., U7 through Adult)</li>
+            <li>Male, Female, and Disability teams</li>
+            <li>Veteran teams</li>
+            <li>Educational institutions</li>
+        </ul>
+        
+        <p>
+            The map also integrates population data per region, showing how many teams exist per 50 people of a relevant age/gender in an area.
+            This comparison adjusts automatically when you apply filters.
+        </p>
+    
+        <h3>📊 Population Data Note</h3>
+        <p>
+            Population figures are estimated based on national averages, assuming a uniform age distribution across Cornwall. When you filter (e.g., U16 & U18 Female), the teams per 50 figure updates accordingly to reflect only that subgroup.
+        </p>
+    
+        <h3>⭐ Star Ratings & Modes</h3>
+        <ul>
+            <li>Star icons represent <strong>TCCs</strong> (Thriving Community Clubs)</li>
+            <li>You can toggle map coloring by <strong>age group</strong> or <strong>star level</strong></li>
+            <li>Use filters to explore team distribution and availability</li>
+        </ul>
+    
+        <h3>🏫 School Filtering</h3>
+        <p>
+            Schools have been added to the map and can be filtered by <strong>school phase</strong> to help provide further context about provision. Schools are shown as house icons on the map.
+        </p>
+    
+        <h3>📥 Updating the Map</h3>
+        <p>
+            Data is pulled directly from a shared spreadsheet. To add or update information, use this sheet:
+            <br>
+            <a href="https://docs.google.com/spreadsheets/d/1c4Qa4tbWYFE4aj7_DePBKR34aKZYTi7-k17hriXGeUg/edit?gid=1730165311#gid=1730165311" target="_blank">
+                View & Edit the Data Sheet
+            </a>
+        </p>
+        <br>
+        <br>
     </div>
     
-
     <br><br>
     <div id="controls">
         <label>Filter by Star Level:</label>

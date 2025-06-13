@@ -1032,6 +1032,7 @@ function countClubsByPar23cd() {
     
     allMarkers
         .filter(marker => 
+            
             (selectedStarLevels.length === 0 || selectedStarLevels.includes(marker.starLevel)) &&
             (selectedAgeGroups.length === 0 || marker.ageGroups.some(group => selectedAgeGroups.includes(group))) &&
             (selectedGender.length === 0 || marker.genders.some(group => selectedGender.includes(group))) &&
@@ -1043,7 +1044,7 @@ function countClubsByPar23cd() {
 
         
         .forEach(marker => {
-            
+            console.log(marker.par23cd);
             if (logSelectedFilters().length!==0){
                 amount = marker.gendersage.filter(group => logSelectedFilters().includes(group)).length;
             }
@@ -1065,6 +1066,7 @@ function countClubsByPar23cd() {
             }
             if (!counts[marker.par23cd]) counts[marker.par23cd] = 0;
             counts[marker.par23cd]+=amount;
+            console.log(counts);
         });
         
 
@@ -1139,6 +1141,7 @@ function findpercentofpop(){
 function findmeanandstd(clubCount,percentofpop){
     let teamsPer50List = [];
     geojsonLayer.eachLayer(layer => {
+        
         if (layer.feature && layer.feature.properties) {
             const par23cd = layer.feature.properties.PAR23CD;
             const population = layer.feature.properties.pop_7;  // Assuming pop_7 holds the population data
@@ -1171,6 +1174,7 @@ function updateGeoJSONLayer() {
         return;
     }
     clubCount=countClubsByPar23cd();
+    console.log(clubCount);
     
     percentofpop = findpercentofpop();
     ({ mean: meanTeamsPer50, stdDev: stdDevTeamsPer50 } = findmeanandstd(clubCount, percentofpop));
@@ -1223,4 +1227,8 @@ function getColorBasedOnTeamsPer50(teamsPer50, meanTeamsPer50, stdDevTeamsPer50)
     
     // Return the color in RGB format
     return `rgb(${r}, ${g}, ${b})`;
+}
+function toggleHelpPanel() {
+    const panel = document.getElementById('help-panel');
+    panel.classList.toggle('open');
 }
